@@ -6664,6 +6664,11 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="PSW1" gate="G$1" pin="S"/>
 <wire x1="12.7" y1="144.78" x2="15.24" y2="144.78" width="0.2032" layer="91"/>
 </segment>
+<segment>
+<pinref part="USB1" gate="USB" pin="VCC"/>
+<pinref part="U$1" gate="G$1" pin="VBUS"/>
+<wire x1="113.03" y1="60.96" x2="113.03" y2="55.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
@@ -6737,13 +6742,6 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="R3" gate="A" pin="1"/>
 <wire x1="157.48" y1="93.98" x2="147.32" y2="93.98" width="0.2032" layer="91"/>
 <label x="147.828" y="93.726" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VBUS" class="0">
-<segment>
-<pinref part="USB1" gate="USB" pin="VCC"/>
-<pinref part="U$1" gate="G$1" pin="VBUS"/>
-<wire x1="113.03" y1="60.96" x2="113.03" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
