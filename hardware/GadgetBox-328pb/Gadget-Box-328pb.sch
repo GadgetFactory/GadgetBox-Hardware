@@ -6471,7 +6471,7 @@ Source: 008-0260-0_E.pdf</description>
 <text x="83.82" y="104.14" size="1.778" layer="97">1.0K  = 1000mA</text>
 <text x="48.26" y="116.84" size="1.778" layer="94">BATTERY CHARGE &amp; MONITOR</text>
 <wire x1="5.08" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="94" style="shortdash"/>
-<text x="142.24" y="119.38" size="1.778" layer="94">Measure Battery (Populate R10 with 0 ohm jumper)</text>
+<text x="142.24" y="119.38" size="1.778" layer="94">Measure Battery (Populate R3 with 0 ohm jumper)</text>
 <text x="5.08" y="10.16" size="1.778" layer="91">Attribution: The charging and power sections are from Adafruit Feather Huzzah design.</text>
 </plain>
 <instances>
