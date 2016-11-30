@@ -8,6 +8,9 @@ boms
 *bom*
 *gerbers*
 *archive*
+*.s#*
+*.b#*
+
 
 # Windows image file caches
 Thumbs.db
