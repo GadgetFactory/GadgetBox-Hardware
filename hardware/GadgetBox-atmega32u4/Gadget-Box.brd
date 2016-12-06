@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -18,10 +18,10 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -48,8 +48,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
@@ -91,6 +91,7 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="tSilk" color="16" fill="1" visible="no" active="yes"/>
 <layer number="131" name="prix" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="test" color="7" fill="1" visible="no" active="yes"/>
 <layer number="133" name="Ports" color="7" fill="1" visible="no" active="yes"/>
@@ -147,12 +148,12 @@
 </layers>
 <board>
 <plain>
-<text x="5.286" y="10.79699375" size="1.016" layer="26" font="vector" ratio="14" rot="SMR90">Off</text>
-<text x="5.069" y="19.142996875" size="1.016" layer="26" font="vector" ratio="14" rot="SMR90">On</text>
-<text x="61.468" y="13.97" size="1.778" layer="22" font="vector" ratio="15" rot="MR90">Gadget Box
+<text x="69.84800625" y="48.466" size="1.27" layer="26" font="vector" ratio="11" rot="SMR0">Off</text>
+<text x="76.742003125" y="48.249" size="1.27" layer="26" font="vector" ratio="11" rot="SMR0">On</text>
+<text x="61.468" y="13.97" size="1.27" layer="22" font="vector" ratio="11" rot="MR90">Gadget Box
 Copyright 2016
 Gadget Factory, LLC
-Version 1.7</text>
+Version 1.8</text>
 <wire x1="85.4864" y1="5.4795" x2="86.0796" y2="5.4795" width="0.254" layer="200"/>
 <wire x1="86.0796" y1="5.4795" x2="86.3129" y2="5.2461" width="0.254" layer="200"/>
 <wire x1="86.3129" y1="5.2461" x2="86.3129" y2="5.08" width="0.254" layer="200"/>
@@ -3561,7 +3562,7 @@ Version 1.7</text>
 <wire x1="4.6117" y1="53.848" x2="39.37" y2="53.848" width="0.254" layer="200"/>
 <wire x1="5.1564" y1="54.102" x2="39.37" y2="54.102" width="0.254" layer="200"/>
 <wire x1="5.8774" y1="54.356" x2="39.37" y2="54.356" width="0.254" layer="200"/>
-<text x="74.168" y="11.43" size="1.27" layer="22" font="vector" ratio="15" rot="MR90">To get started visit:
+<text x="74.168" y="11.43" size="1.27" layer="22" font="vector" ratio="11" rot="MR90">To get started visit:
 GadgetBox.GadgetFactory.net</text>
 <wire x1="5.8748" y1="21.9202" x2="5.7082" y2="21.9202" width="0.254" layer="200"/>
 <wire x1="5.7082" y1="21.9202" x2="5.6642" y2="21.9642" width="0.254" layer="200"/>
@@ -5238,6 +5239,10 @@ GadgetBox.GadgetFactory.net</text>
 <wire x1="4.6117" y1="25.908" x2="39.37" y2="25.908" width="0.254" layer="200"/>
 <wire x1="5.1564" y1="26.162" x2="39.37" y2="26.162" width="0.254" layer="200"/>
 <wire x1="5.8774" y1="26.416" x2="39.37" y2="26.416" width="0.254" layer="200"/>
+<wire x1="39" y1="55" x2="39" y2="52" width="0.254" layer="20"/>
+<wire x1="39" y1="52" x2="34" y2="52" width="0.254" layer="20"/>
+<wire x1="34" y1="52" x2="34" y2="55" width="0.254" layer="20"/>
+<text x="37.4" y="55.1" size="1.778" layer="20" font="vector" ratio="15" rot="R90">&lt;---Cutout</text>
 </plain>
 <libraries>
 <library name="diode">
@@ -14552,228 +14557,228 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="C9" library="SmartPrj" package="C0603-ROUND" value=".1uF" x="60.96" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="58.801" y="36.703" size="0.8128" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="64.516" y="40.3859" size="0.8128" layer="27" rot="R180"/>
+<attribute name="NAME" x="63.373" y="38.227" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="64.516" y="40.3859" size="1.27" layer="27" rot="R180"/>
 <attribute name="PARTNO" value="GRM188F51E104ZA01D,MURATA ELECTRONICS (VA),DK,490-1575-1-ND,CAP CER .1UF 25V Y5V 0603, REF2" x="60.96" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R9" library="SmartPrj" package="R0603-ROUND" value="1M" x="40.64" y="19.685" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.418" y="18.923" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="42.9261" y="18.9228" size="0.8128" layer="27" rot="R90"/>
+<attribute name="NAME" x="41.91" y="19.939" size="1.27" layer="25" font="vector" ratio="11" rot="R90" align="center"/>
+<attribute name="VALUE" x="42.9261" y="18.9228" size="1.27" layer="27" rot="R90"/>
 <attribute name="PARTNO" value="RMCF0603JT1M00,STACKPOLE ELECTRONICS INC (VA),dk,RMCF0603JT1M00CT-ND,RES SMD 1M OHM 5% 1/10W 0603, REF57" x="40.64" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C11" library="GadgetFactory" package="0603" value="1uF" x="34.29" y="35.56" smashed="yes">
-<attribute name="NAME" x="33.274" y="36.449" size="0.8128" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="33.401" y="33.274" size="0.8128" layer="27"/>
+<attribute name="NAME" x="37.846" y="35.433" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="33.401" y="33.274" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="C1608X5R1A105K080AC,TDK CORPORATION (VA),dk,445-1321-1-ND,CAP CER 1UF 10V X5R 0603, REF53" x="34.29" y="35.56" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R100" library="SmartPrj" package="R0603-ROUND" value="NM" x="60.96" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.849" y="37.592" size="1.016" layer="50" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="61.849" y="37.592" size="0.8128" layer="27" rot="R180"/>
+<attribute name="VALUE" x="61.849" y="37.592" size="1.27" layer="27" rot="R180"/>
 <attribute name="BOM" value="EXCLUDE" x="60.96" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R101" library="SmartPrj" package="R0603-ROUND" value="NM" x="34.29" y="38.1" smashed="yes">
 <attribute name="NAME" x="33.909" y="36.068" size="1.016" layer="50" ratio="12"/>
-<attribute name="VALUE" x="33.401" y="36.068" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="33.401" y="36.068" size="1.27" layer="27"/>
 <attribute name="BOM" value="EXCLUDE" x="34.29" y="38.1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="L1" library="wuerth-elektronik" package="0805" value="MH2029-300Y" x="50.8" y="38.1" smashed="yes">
-<attribute name="NAME" x="53.5686" y="38.6588" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
-<attribute name="VALUE" x="48.895" y="39.0525" size="0.8128" layer="27"/>
+<attribute name="NAME" x="51.0032" y="39.5986" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="48.895" y="39.0525" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="MH2029-300Y,BOURNS INC (VA),dk,MH2029-300YCT-ND,FERRITE BEAD 30 OHM 0805 1LN, REF60" x="50.8" y="38.1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C10" library="GadgetFactory" package="0603" value="1uF" x="55.88" y="38.1" smashed="yes">
-<attribute name="NAME" x="54.991" y="36.576" size="0.8128" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="54.991" y="35.814" size="0.8128" layer="27"/>
+<attribute name="NAME" x="56.007" y="39.624" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="54.991" y="35.814" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="C1608X5R1A105K080AC,TDK CORPORATION (VA),dk,445-1321-1-ND,CAP CER 1UF 10V X5R 0603, REF53" x="55.88" y="38.1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C8" library="SmartPrj" package="C0603-ROUND" value=".1uF" x="34.29" y="24.13" smashed="yes" rot="R180">
-<attribute name="NAME" x="36.322" y="24.892" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
-<attribute name="VALUE" x="35.179" y="26.416" size="0.8128" layer="27" rot="R180"/>
+<attribute name="NAME" x="34.29" y="25.4" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="35.179" y="26.416" size="1.27" layer="27" rot="R180"/>
 <attribute name="PARTNO" value="GRM188F51E104ZA01D,MURATA ELECTRONICS (VA),DK,490-1575-1-ND,CAP CER .1UF 25V Y5V 0603, REF2" x="34.29" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C5" library="SmartPrj" package="C0603-ROUND" value=".1uF" x="60.96" y="27.94" smashed="yes">
-<attribute name="NAME" x="58.674" y="27.178" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="60.071" y="25.654" size="0.8128" layer="27"/>
+<attribute name="NAME" x="64.008" y="27.94" size="1.27" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
+<attribute name="VALUE" x="60.071" y="25.654" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="GRM188F51E104ZA01D,MURATA ELECTRONICS (VA),DK,490-1575-1-ND,CAP CER .1UF 25V Y5V 0603, REF2" x="60.96" y="27.94" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="SmartPrj" package="QFN44ML7X7" value="ATMEGA32U4-XUMU" x="48.006" y="27.94" locked="yes" smashed="yes" rot="R315">
-<attribute name="VALUE" x="41.341659375" y="26.790953125" size="0.8128" layer="27" rot="R315"/>
+<attribute name="VALUE" x="41.341659375" y="26.790953125" size="1.27" layer="27" rot="R315"/>
 <attribute name="BOM" value="EXCLUDE" x="48.006" y="27.94" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
 <element name="U3" library="SmartPrj" package="TQFP44-PAD" value="ATMEGA32U4-XUAU" x="48.006" y="27.94" locked="yes" smashed="yes" rot="R315">
 <attribute name="PARTNO" value="ATMEGA32U4-AUR,ATMEL (VA),dk,ATMEGA32U4-AURCT-ND,IC MCU 8BIT 32KB FLASH 44TQFP, REF48" x="48.006" y="27.94" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="NAME" x="55.010596875" y="28.11960625" size="0.8128" layer="25" rot="R315"/>
-<attribute name="VALUE" x="38.67211875" y="24.8923" size="1.778" layer="27" rot="R315"/>
+<attribute name="NAME" x="56.026596875" y="27.86560625" size="1.27" layer="25" font="vector" rot="R315" align="center"/>
+<attribute name="VALUE" x="38.67211875" y="24.8923" size="1.27" layer="27" rot="R315"/>
 </element>
 <element name="C6" library="SmartPrj" package="C0603-ROUND" value="22p" x="34.29" y="21.59" smashed="yes">
-<attribute name="NAME" x="32.258" y="20.955" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="33.655" y="19.685" size="0.8128" layer="27"/>
+<attribute name="NAME" x="34.417" y="20.32" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="33.655" y="19.685" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="C1608C0G1H220J080AA,TDK CORPORATION (VA),dk,445-1273-1-ND,CAP CER 22PF 50V C0G 0603, REF58" x="34.29" y="21.59" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C7" library="SmartPrj" package="C0603-ROUND" value="22p" x="34.29" y="17.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.782" y="18.415" size="0.8128" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="34.925" y="19.685" size="0.8128" layer="27" rot="R180"/>
+<attribute name="NAME" x="34.544" y="18.923" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="34.925" y="19.685" size="1.27" layer="27" rot="R180"/>
 <attribute name="PARTNO" value="C1608C0G1H220J080AA,TDK CORPORATION (VA),dk,445-1273-1-ND,CAP CER 22PF 50V C0G 0603, REF58" x="34.29" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D2" library="diode" package="MINIMELF" value="CD1206-S01575" x="34.29" y="31.75" smashed="yes">
-<attribute name="NAME" x="35.052" y="33.655" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
-<attribute name="VALUE" x="32.639" y="29.337" size="0.8128" layer="27"/>
+<attribute name="NAME" x="34.29" y="33.401" size="1.27" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
+<attribute name="VALUE" x="32.639" y="29.337" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="CD1206-S01575,BOURNS INC (VA),dk,CD1206-S01575CT-ND,DIODE GEN PURP 100V 150MA 1206, REF46" x="34.29" y="31.75" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R7" library="GadgetFactory_6.0" package="0805" value="22R" x="45.72" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.555" y="38.63" size="0.8128" layer="25" font="vector" ratio="14" rot="R270"/>
-<attribute name="VALUE" x="47.42" y="37.35" size="0.8128" layer="27" font="vector" ratio="31" rot="R180"/>
-<attribute name="VALUE" x="47.42" y="38.9" size="0.8128" layer="27" font="vector" ratio="31" rot="R180"/>
-<attribute name="VALUE" x="44.02" y="37.3" size="0.8128" layer="27" font="vector" ratio="31"/>
-<attribute name="VALUE" x="44.02" y="38.85" size="0.8128" layer="27" font="vector" ratio="31"/>
+<attribute name="NAME" x="45.952" y="39.935" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="47.42" y="37.35" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="47.42" y="38.9" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="44.02" y="37.3" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="44.02" y="38.85" size="1.27" layer="27" font="vector" ratio="11"/>
 <attribute name="PARTNO" value="RMCF0805JT22R0,STACKPOLE ELECTRONICS INC (VA),dk,RMCF0805JT22R0CT-ND,RES SMD 22 OHM 5% 1/8W 0805, REF62" x="45.72" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R4" library="GadgetFactory_6.0" package="0805" value="22R" x="40.64" y="38.1" smashed="yes">
-<attribute name="NAME" x="38.03" y="38.63" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
-<attribute name="VALUE" x="38.94" y="38.85" size="0.8128" layer="27" font="vector" ratio="31"/>
-<attribute name="VALUE" x="38.94" y="37.3" size="0.8128" layer="27" font="vector" ratio="31"/>
-<attribute name="VALUE" x="42.34" y="38.9" size="0.8128" layer="27" font="vector" ratio="31" rot="R180"/>
-<attribute name="VALUE" x="42.34" y="37.35" size="0.8128" layer="27" font="vector" ratio="31" rot="R180"/>
+<attribute name="NAME" x="40.618" y="39.808" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="38.94" y="38.85" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="38.94" y="37.3" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="42.34" y="38.9" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="42.34" y="37.35" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
 <attribute name="PARTNO" value="RMCF0805JT22R0,STACKPOLE ELECTRONICS INC (VA),dk,RMCF0805JT22R0CT-ND,RES SMD 22 OHM 5% 1/8W 0805, REF62" x="40.64" y="38.1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R10" library="GadgetFactory_6.0" package="0603" value="10K" x="34.29" y="27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.919" y="27.616" size="0.8128" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="35.99" y="27.19" size="0.8128" layer="27" font="vector" ratio="31" rot="R180"/>
-<attribute name="VALUE" x="35.99" y="28.74" size="0.8128" layer="27" font="vector" ratio="31" rot="R180"/>
-<attribute name="VALUE" x="32.59" y="27.14" size="0.8128" layer="27" font="vector" ratio="31"/>
-<attribute name="VALUE" x="32.59" y="28.69" size="0.8128" layer="27" font="vector" ratio="31"/>
+<attribute name="NAME" x="34.395" y="29.394" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="35.99" y="27.19" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="35.99" y="28.74" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="32.59" y="27.14" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="32.59" y="28.69" size="1.27" layer="27" font="vector" ratio="11"/>
 <attribute name="PARTNO" value="RC0603JR-0710KL,YAGEO (VA),dk,311-10KGRCT-ND,RES SMD 10K OHM 5% 1/10W 0603 , REF36" x="34.29" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R8" library="GadgetFactory_6.0" package="0603" value="10K" x="55.88" y="17.78" smashed="yes">
-<attribute name="NAME" x="56.664" y="19.374" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
-<attribute name="VALUE" x="54.18" y="18.53" size="0.8128" layer="27" font="vector" ratio="31"/>
-<attribute name="VALUE" x="54.18" y="16.98" size="0.8128" layer="27" font="vector" ratio="31"/>
-<attribute name="VALUE" x="57.58" y="18.58" size="0.8128" layer="27" font="vector" ratio="31" rot="R180"/>
-<attribute name="VALUE" x="57.58" y="17.03" size="0.8128" layer="27" font="vector" ratio="31" rot="R180"/>
+<attribute name="NAME" x="55.902" y="16.072" size="1.27" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
+<attribute name="VALUE" x="54.18" y="18.53" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="54.18" y="16.98" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="57.58" y="18.58" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="57.58" y="17.03" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
 <attribute name="PARTNO" value="RC0603JR-0710KL,YAGEO (VA),dk,311-10KGRCT-ND,RES SMD 10K OHM 5% 1/10W 0603 , REF36" x="55.88" y="17.78" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R11" library="GadgetFactory" package="0603" value="10K" x="45.72" y="17.78" smashed="yes">
-<attribute name="NAME" x="46.101" y="15.3416" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="45.085" y="15.748" size="0.8128" layer="27"/>
+<attribute name="NAME" x="46.1264" y="16.129" size="1.27" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
+<attribute name="VALUE" x="45.085" y="15.748" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="RC0603JR-0710KL,YAGEO (VA),dk,311-10KGRCT-ND,RES SMD 10K OHM 5% 1/10W 0603 , REF36" x="45.72" y="17.78" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R12" library="GadgetFactory" package="0603" value="10K" x="50.8" y="17.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.4952" y="20.2438" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
-<attribute name="VALUE" x="51.435" y="19.812" size="0.8128" layer="27" rot="R180"/>
+<attribute name="NAME" x="50.8762" y="15.9512" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="51.435" y="19.812" size="1.27" layer="27" rot="R180"/>
 <attribute name="PARTNO" value="RC0603JR-0710KL,YAGEO (VA),dk,311-10KGRCT-ND,RES SMD 10K OHM 5% 1/10W 0603 , REF36" x="50.8" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="USB" library="dp_devices" package="CONN_USB_MINI-B" value="CONN_USB" x="23.999953125" y="49.53" locked="yes" smashed="yes" rot="R180">
-<attribute name="NAME" x="24.951953125" y="44.284" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="NAME" x="23.935953125" y="45.046" size="1.27" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
 <attribute name="PARTNO" value="USB-M26FTR,ON SHORE TECHNOLOGY INC (VA),dk,ED2992CT-ND,CONN USB MINI B R/A SMD, REF66" x="23.999953125" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="BH" library="eCogs" package="ECOG" value="ECOGECOG_SLOT" x="12.7" y="31.75" locked="yes" rot="R90">
+<element name="BH" library="eCogs" package="ECOG" value="ECOGECOG_SLOT" x="12.7" y="31.75" locked="yes" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="PPPC102LFBN-RC,SULLINS CONNECTOR SOLUTIONS,dk,S6106-ND,&quot;CONN HEADER FEM 20POS.1&quot;&quot; DL GOLD&quot;, REF67" x="12.7" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="AL" library="eCogs" package="ECOG" value="ECOGECOG_SLOT" x="83.312" y="52.07" locked="yes" rot="R270">
+<element name="AL" library="eCogs" package="ECOG" value="ECOGECOG_SLOT" x="83.312" y="52.07" locked="yes" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="PPPC102LFBN-RC,SULLINS CONNECTOR SOLUTIONS,dk,S6106-ND,&quot;CONN HEADER FEM 20POS.1&quot;&quot; DL GOLD&quot;, REF67" x="83.312" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="AH" library="eCogs" package="ECOG" value="ECOGECOG_SLOT" x="83.312" y="24.13" locked="yes" rot="R270">
+<element name="AH" library="eCogs" package="ECOG" value="ECOGECOG_SLOT" x="83.312" y="24.13" locked="yes" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="PPPC102LFBN-RC,SULLINS CONNECTOR SOLUTIONS,dk,S6106-ND,&quot;CONN HEADER FEM 20POS.1&quot;&quot; DL GOLD&quot;, REF67" x="83.312" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="BL" library="eCogs" package="ECOG" value="ECOGECOG_SLOT" x="12.7" y="3.81" locked="yes" rot="R90">
+<element name="BL" library="eCogs" package="ECOG" value="ECOGECOG_SLOT" x="12.7" y="3.81" locked="yes" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="PPPC102LFBN-RC,SULLINS CONNECTOR SOLUTIONS,dk,S6106-ND,&quot;CONN HEADER FEM 20POS.1&quot;&quot; DL GOLD&quot;, REF67" x="12.7" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C1" library="microbuilder" package="0805-NO" value="10µF" x="73.66" y="39.37" smashed="yes">
-<attribute name="NAME" x="72.8725" y="40.59" size="0.8128" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="72.4396" y="39.092" size="0.8128" layer="27" ratio="10"/>
+<attribute name="NAME" x="72.8725" y="40.59" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="72.4396" y="39.092" size="1.27" layer="27" ratio="10"/>
 <attribute name="PARTNO" value="CL21F106ZPFNNNE,Samsung,DK,1276-3012-1-ND,CAP CER 10UF 10V Y5V 0805, REF1" x="73.66" y="39.37" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="microbuilder" package="0805-NO" value="10µF" x="78.74" y="34.29" smashed="yes" rot="R90">
 <attribute name="COMPANY" value="ADAFRUIT INDUSTRIES" x="78.74" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DRAWN" value="KTOWN" x="78.74" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="REV" value="A" x="78.74" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="76.2745" y="35.271" size="0.8128" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="79.118" y="32.7406" size="0.8128" layer="27" ratio="10" rot="R90"/>
+<attribute name="NAME" x="76.2745" y="35.271" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="79.118" y="32.7406" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="PARTNO" value="CL21F106ZPFNNNE,Samsung,DK,1276-3012-1-ND,CAP CER 10UF 10V Y5V 0805, REF1" x="78.74" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U2" library="microbuilder" package="SOT23-5" value="AP2112-3.3" x="73.66" y="34.29" smashed="yes" rot="R180">
-<attribute name="NAME" x="74.476" y="34.671" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
-<attribute name="VALUE" x="75.492" y="35.052" size="0.8128" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="74.476" y="34.671" size="1.27" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
+<attribute name="VALUE" x="75.492" y="35.052" size="1.27" layer="27" ratio="10" rot="R180"/>
 <attribute name="PARTNO" value="AP2112K-3.3TRG1,Diodes Incorporated,dk,AP2112K-3.3TRG1DICT-ND,IC REG LDO 3.3V 0.6A SOT25 , REF75" x="73.66" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D1" library="microbuilder" package="SOD-123" value="MBR120" x="68.58" y="34.29" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.342" y="35.179" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
-<attribute name="VALUE" x="68.072" y="36.449" size="0.8128" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="67.056" y="34.417" size="1.27" layer="25" font="vector" ratio="11" rot="R270" align="center"/>
+<attribute name="VALUE" x="68.072" y="36.449" size="1.27" layer="27" ratio="10" rot="R270"/>
 <attribute name="PARTNO" value="MBR120VLSFT3G,on semiconductor,dk,MBR120VLSFT3GOSCT-ND ,DIODE SCHOTTKY 20V 1A SOD123FL , REF71" x="68.58" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="X100" library="microbuilder" package="JSTPH2" value="JSTPH" x="21.59" y="38.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.5585" y="40.3225" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
-<attribute name="VALUE" x="23.495" y="39.8145" size="0.8128" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="22.1615" y="43.1165" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="23.495" y="39.8145" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="PARTNO" value="S2B-PH-SM4-TB(LF)(SN),JST SALES AMERICA INC (VA),dk,455-1749-1-ND,CONN HEADER PH SIDE 2POS 2MM SMD, REF69" x="21.59" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U1" library="microbuilder" package="SOT23-5" value="MCP73831T-2ACI/OT" x="73.66" y="21.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="71.682" y="21.59" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
-<attribute name="VALUE" x="71.066" y="22.225" size="0.8128" layer="27" ratio="10"/>
+<attribute name="NAME" x="70.92" y="21.59" size="1.27" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
+<attribute name="VALUE" x="71.066" y="22.225" size="1.27" layer="27" ratio="10"/>
 <attribute name="PARTNO" value="MCP73831T-2ACI/OT,MICROCHIP TECHNOLOGY (VA),dk,MCP73831T-2ACI/OTCT-ND,IC CONTROLLR LI-ION 4.2V SOT23-5, REF74" x="73.66" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="CHG" library="microbuilder" package="CHIPLED_0805_NOOUTLINE" value="ORANGE" x="68.58" y="21.59" smashed="yes">
-<attribute name="NAME" x="67.691" y="20.574" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="68.961" y="19.812" size="0.8128" layer="27" ratio="10" rot="R90"/>
+<attribute name="NAME" x="67.183" y="21.59" size="1.27" layer="25" font="vector" ratio="11" rot="R90" align="center"/>
+<attribute name="VALUE" x="68.961" y="19.812" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="PARTNO" value="LTST-C171EKT,LITE-ON INC (VA),DK,160-1422-1-ND,LED RED ORAN CLEAR THIN 0805 SMD, REF6" x="68.58" y="21.59" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1" library="microbuilder" package="0603-NO" value="1K" x="73.66" y="26.67" smashed="yes">
-<attribute name="NAME" x="72.263" y="25.146" size="0.8128" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="73.152" y="26.289" size="0.8128" layer="27" font="vector" ratio="10"/>
+<attribute name="NAME" x="71.755" y="26.67" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="73.152" y="26.289" size="1.27" layer="27" font="vector" ratio="11"/>
 <attribute name="PARTNO" value="RC0603JR-071KL,YAGEO (VA),dk,311-1.0KGRTR-ND,RES SMD 1K OHM 5% 1/10W 0603 , REF73" x="73.66" y="26.67" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C2" library="microbuilder" package="0805-NO" value="10µF" x="73.66" y="16.51" smashed="yes">
-<attribute name="NAME" x="72.136" y="14.605" size="0.8128" layer="25" ratio="18"/>
-<attribute name="VALUE" x="72.644" y="16.129" size="0.8128" layer="27" ratio="10"/>
+<attribute name="NAME" x="71.374" y="16.637" size="1.27" layer="25" font="vector" ratio="18" align="center"/>
+<attribute name="VALUE" x="72.644" y="16.129" size="1.27" layer="27" ratio="10"/>
 <attribute name="PARTNO" value="CL21F106ZPFNNNE,Samsung,DK,1276-3012-1-ND,CAP CER 10UF 10V Y5V 0805, REF1" x="73.66" y="16.51" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R6" library="GadgetFactory" package="0603" value="10K" x="78.74" y="21.59" smashed="yes" rot="R90">
-<attribute name="NAME" x="78.105" y="20.955" size="0.8128" layer="25" font="vector" ratio="18" rot="R90"/>
-<attribute name="VALUE" x="79.121" y="20.447" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="78.613" y="24.511" size="1.27" layer="25" font="vector" ratio="11" rot="R90" align="center"/>
+<attribute name="VALUE" x="79.121" y="20.447" size="1.27" layer="27" font="vector" ratio="11" rot="R90"/>
 <attribute name="PARTNO" value="RC0603JR-0710KL,YAGEO (VA),dk,311-10KGRCT-ND,RES SMD 10K OHM 5% 1/10W 0603 , REF36" x="78.74" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="PSW1" library="adafruit" package="OS102011MA1Q" value="OS102011MA1Q" x="72.009" y="51.9938" locked="yes" smashed="yes" rot="R180">
-<attribute name="NAME" x="73.5406" y="49.6446" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="NAME" x="73.5406" y="49.6446" size="1.27" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
 <attribute name="PARTNO" value="OS102011MA1QN1,C&amp;K Components,dk,CKN9559-ND,SWITCH SLIDE SPDT 100MA 12V , REF72" x="72.009" y="51.9938" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$101" library="GadgetFactory" package="GADGETBOX_TEXT" value="" x="83.566" y="28.702" rot="MR270"/>
-<element name="U$100" library="GadgetFactory" package="GADGETBOX_TEXT" value="" x="25.654" y="28.702" rot="MR270"/>
+<element name="U$101" library="GadgetFactory" package="GADGETBOX_TEXT" value="" x="83.566" y="28.702" smashed="yes" rot="MR270"/>
+<element name="U$100" library="GadgetFactory" package="GADGETBOX_TEXT" value="" x="25.654" y="28.702" smashed="yes" rot="MR270"/>
 <element name="X1" library="OPL Eagle Library" package="2P-SMD-5.0X3.2" value="CRYSTAL-0500290P1" x="38.1" y="19.685" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="ABM3-8.000MHZ-D2Y-T,Abracon Corporation,dk,535-10630-1-ND ,CRYSTAL 8.0000MHZ 18PF SMD , REF70" x="38.1" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="40.386" y="19.304" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="38.1" y="17.78" size="0.635" layer="27" ratio="10" rot="R90"/>
+<attribute name="NAME" x="39.37" y="16.764" size="1.27" layer="25" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="38.1" y="17.78" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="$$U$1" library="eCogs" package="ECOG93P53P5" value="" x="0" y="0"/>
+<element name="$$U$1" library="eCogs" package="ECOG93P53P5" value="" x="0" y="0" smashed="yes"/>
 <element name="R3" library="GadgetFactory" package="0603" value="DNP" x="60.96" y="33.02" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="60.96" y="33.02" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="60.16" y="34.02" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="59.56" y="33.57" size="0.05" layer="27" font="vector" ratio="0"/>
-<attribute name="VALUE" x="59.56" y="32.42" size="0.05" layer="27" font="vector" ratio="0"/>
-<attribute name="VALUE" x="62.36" y="33.62" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
-<attribute name="VALUE" x="62.36" y="32.47" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
+<attribute name="NAME" x="63.262" y="35.522" size="1.27" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
+<attribute name="VALUE" x="59.56" y="33.57" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="59.56" y="32.42" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="62.36" y="33.62" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="62.36" y="32.47" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
 </element>
 <element name="R5" library="GadgetFactory" package="0603" value="100k" x="60.96" y="25.4" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="RC0603JR-07100KL,YAGEO (VA),dk,311-100KGRCT-ND,RES SMD 100K OHM 5% 1/10W 0603 , REF76" x="60.96" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="64.37" y="25.87" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
-<attribute name="VALUE" x="62.36" y="24.85" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
-<attribute name="VALUE" x="62.36" y="26" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
-<attribute name="VALUE" x="59.56" y="24.8" size="0.05" layer="27" font="vector" ratio="0"/>
-<attribute name="VALUE" x="59.56" y="25.95" size="0.05" layer="27" font="vector" ratio="0"/>
+<attribute name="NAME" x="64.116" y="25.362" size="1.27" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
+<attribute name="VALUE" x="62.36" y="24.85" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="62.36" y="26" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="59.56" y="24.8" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="59.56" y="25.95" size="1.27" layer="27" font="vector" ratio="11"/>
 </element>
 <element name="R2" library="GadgetFactory" package="0603" value="100k" x="60.96" y="30.48" smashed="yes">
 <attribute name="PARTNO" value="RC0603JR-07100KL,YAGEO (VA),dk,311-100KGRCT-ND,RES SMD 100K OHM 5% 1/10W 0603 , REF76" x="60.96" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="60.36" y="27.48" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="59.56" y="31.03" size="0.05" layer="27" font="vector" ratio="0"/>
-<attribute name="VALUE" x="59.56" y="29.88" size="0.05" layer="27" font="vector" ratio="0"/>
-<attribute name="VALUE" x="62.36" y="31.08" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
-<attribute name="VALUE" x="62.36" y="29.93" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
+<attribute name="NAME" x="63.96" y="30.388" size="1.27" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
+<attribute name="VALUE" x="59.56" y="31.03" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="59.56" y="29.88" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="62.36" y="31.08" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="62.36" y="29.93" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
 </element>
 <element name="C4" library="GadgetFactory" package="0603" value="1uF" x="73.66" y="29.21" smashed="yes">
 <attribute name="PARTNO" value="C1608X5R1A105K080AC,TDK CORPORATION (VA),dk,445-1321-1-ND,CAP CER 1UF 10V X5R 0603, REF53" x="73.66" y="29.21" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="72.16" y="30.11" size="0.8128" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="72.26" y="29.76" size="0.05" layer="27" font="vector" ratio="0"/>
-<attribute name="VALUE" x="72.26" y="28.61" size="0.05" layer="27" font="vector" ratio="0"/>
-<attribute name="VALUE" x="75.06" y="29.81" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
-<attribute name="VALUE" x="75.06" y="28.66" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
+<attribute name="NAME" x="71.144" y="29.348" size="1.27" layer="25" font="vector" ratio="11" align="center"/>
+<attribute name="VALUE" x="72.26" y="29.76" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="72.26" y="28.61" size="1.27" layer="27" font="vector" ratio="11"/>
+<attribute name="VALUE" x="75.06" y="29.81" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="75.06" y="28.66" size="1.27" layer="27" font="vector" ratio="11" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -14843,9 +14848,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="53.0225" y1="19.05" x2="54.2925" y2="17.78" width="0.2032" layer="1"/>
 <wire x1="54.2925" y1="17.78" x2="55.08" y2="17.78" width="0.2032" layer="1"/>
 <wire x1="71.755" y1="29.21" x2="72.86" y2="29.21" width="0.6096" layer="1"/>
-<wire x1="46.591784375" y1="27.94" x2="44.983115625" y2="26.33133125" width="0.2032" layer="1"/>
 <wire x1="48.006" y1="27.94" x2="50.834428125" y2="27.94" width="0.2032" layer="1"/>
 <wire x1="50.834428125" y1="27.94" x2="51.7359875" y2="28.841559375" width="0.2032" layer="1"/>
+<wire x1="44.983115625" y1="26.33133125" x2="46.591784375" y2="27.94" width="0.2032" layer="1"/>
+<wire x1="46.591784375" y1="27.94" x2="48.006" y2="27.94" width="0.2032" layer="1"/>
 </signal>
 <signal name="AREF" class="4">
 <contactref element="C9" pad="2"/>
@@ -14895,12 +14901,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="89.535" y1="7.62" x2="88.9" y2="8.255" width="0.2032" layer="1"/>
 <wire x1="88.9" y1="8.255" x2="88.9" y2="33.782" width="0.2032" layer="1"/>
 <wire x1="88.9" y1="33.782" x2="87.122" y2="35.56" width="0.2032" layer="1"/>
-<wire x1="85.09" y1="31.75" x2="80.645" y2="31.75" width="0.2032" layer="16"/>
-<wire x1="85.09" y1="31.75" x2="85.852" y2="32.512" width="0.2032" layer="16"/>
+<wire x1="85.09" y1="28.575" x2="80.645" y2="28.575" width="0.2032" layer="16"/>
+<wire x1="85.09" y1="28.575" x2="85.852" y2="29.337" width="0.2032" layer="16"/>
 <wire x1="87.122" y1="35.56" x2="85.852" y2="34.29" width="0.2032" layer="16"/>
-<wire x1="85.852" y1="34.29" x2="85.852" y2="32.512" width="0.2032" layer="16"/>
-<wire x1="80.645" y1="31.75" x2="78.74" y2="29.845" width="0.2032" layer="16"/>
-<wire x1="78.74" y1="29.845" x2="78.74" y2="24.13" width="0.2032" layer="16"/>
+<wire x1="85.852" y1="34.29" x2="85.852" y2="29.337" width="0.2032" layer="16"/>
+<wire x1="80.645" y1="28.575" x2="78.74" y2="26.67" width="0.2032" layer="16"/>
+<wire x1="78.74" y1="26.67" x2="78.74" y2="24.13" width="0.2032" layer="16"/>
 <wire x1="78.74" y1="24.13" x2="66.9925" y2="12.3825" width="0.2032" layer="16"/>
 <wire x1="66.9925" y1="12.3825" x2="28.2575" y2="12.3825" width="0.2032" layer="16"/>
 <via x="26.67" y="13.97" extent="1-16" drill="0.381"/>
@@ -14960,9 +14966,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R7" pad="1"/>
 <contactref element="USB" pad="D-"/>
 <wire x1="24.799953125" y1="46.93" x2="24.799953125" y2="45.050046875" width="0.2032" layer="1"/>
-<wire x1="24.799953125" y1="45.050046875" x2="29.21" y2="40.64" width="0.2032" layer="1"/>
-<wire x1="29.21" y1="40.64" x2="36.83" y2="40.64" width="0.2032" layer="1"/>
-<wire x1="36.83" y1="40.64" x2="38.1" y2="39.37" width="0.2032" layer="1"/>
+<wire x1="24.799953125" y1="45.050046875" x2="26.035" y2="43.815" width="0.2032" layer="1"/>
+<wire x1="26.035" y1="43.815" x2="33.655" y2="43.815" width="0.2032" layer="1"/>
+<wire x1="33.655" y1="43.815" x2="38.1" y2="39.37" width="0.2032" layer="1"/>
 <wire x1="38.1" y1="39.37" x2="46.355" y2="39.37" width="0.2032" layer="1"/>
 <wire x1="46.72" y1="38.1" x2="46.72" y2="39.005" width="0.2032" layer="1"/>
 <wire x1="46.72" y1="39.005" x2="46.355" y2="39.37" width="0.2032" layer="1"/>
@@ -14971,9 +14977,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R4" pad="1"/>
 <contactref element="USB" pad="D+"/>
 <wire x1="23.999953125" y1="46.93" x2="23.999953125" y2="44.580046875" width="0.2032" layer="1"/>
-<wire x1="23.999953125" y1="44.580046875" x2="28.575" y2="40.005" width="0.2032" layer="1"/>
-<wire x1="28.575" y1="40.005" x2="36.195" y2="40.005" width="0.2032" layer="1"/>
-<wire x1="36.195" y1="40.005" x2="38.1" y2="38.1" width="0.2032" layer="1"/>
+<wire x1="23.999953125" y1="44.580046875" x2="25.4" y2="43.18" width="0.2032" layer="1"/>
+<wire x1="25.4" y1="43.18" x2="33.02" y2="43.18" width="0.2032" layer="1"/>
+<wire x1="33.02" y1="43.18" x2="38.1" y2="38.1" width="0.2032" layer="1"/>
 <wire x1="38.1" y1="38.1" x2="39.64" y2="38.1" width="0.2032" layer="1"/>
 </signal>
 <signal name="SPI-MISO">
@@ -15851,6 +15857,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="62.865" y1="31.75" x2="59.055" y2="27.94" width="0.2032" layer="16"/>
 <wire x1="59.055" y1="27.94" x2="60.071" y2="27.94" width="0.2032" layer="1"/>
 <wire x1="48.895" y1="38.1" x2="48.26" y2="37.465" width="0.2032" layer="1"/>
+<wire x1="84.582" y1="30.48" x2="87.122" y2="30.48" width="0.4064" layer="1"/>
 </signal>
 <signal name="D13*">
 <contactref element="U4" pad="30"/>
