@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="16" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="16" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,19 +43,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -1417,126 +1417,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 <wire x1="22.86" y1="0.0635" x2="22.86" y2="4.3561" width="0.127" layer="21"/>
 </package>
-<package name="ECOG_ALT1">
-<wire x1="15.875" y1="2.54" x2="17.145" y2="2.54" width="0.127" layer="21"/>
-<wire x1="10.795" y1="2.54" x2="12.065" y2="2.54" width="0.127" layer="21"/>
-<wire x1="13.335" y1="2.54" x2="14.605" y2="2.54" width="0.127" layer="21"/>
-<wire x1="8.255" y1="2.54" x2="9.525" y2="2.54" width="0.127" layer="21"/>
-<wire x1="22.86" y1="0" x2="7.62" y2="0" width="0.127" layer="21"/>
-<wire x1="20.32" y1="4.445" x2="20.955" y2="5.08" width="0.127" layer="21"/>
-<wire x1="20.955" y1="5.08" x2="22.225" y2="5.08" width="0.127" layer="21"/>
-<wire x1="22.225" y1="5.08" x2="22.86" y2="4.445" width="0.127" layer="21"/>
-<wire x1="20.32" y1="4.445" x2="19.685" y2="5.08" width="0.127" layer="21"/>
-<wire x1="18.415" y1="5.08" x2="19.685" y2="5.08" width="0.127" layer="21"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="1.905" width="0.127" layer="21"/>
-<wire x1="10.16" y1="0.0635" x2="10.16" y2="4.5085" width="0.127" layer="21"/>
-<wire x1="12.7" y1="0.0635" x2="12.7" y2="4.5085" width="0.127" layer="21"/>
-<wire x1="15.24" y1="0.0635" x2="15.24" y2="4.5085" width="0.127" layer="21"/>
-<wire x1="17.7927" y1="4.4577" x2="18.4023" y2="5.0673" width="0.127" layer="21"/>
-<wire x1="17.78" y1="0.0635" x2="17.78" y2="2.54" width="0.127" layer="21"/>
-<wire x1="17.78" y1="2.54" x2="17.78" y2="4.4323" width="0.127" layer="21"/>
-<wire x1="20.32" y1="0.0635" x2="20.32" y2="4.3561" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="0.0635" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="4.4323" width="0.127" layer="21"/>
-<wire x1="17.8054" y1="2.54" x2="22.733" y2="2.54" width="0.127" layer="21"/>
-<pad name="GND@G" x="-1.27" y="1.27" drill="1.016" shape="square" rot="R180"/>
-<pad name="3V3@G8" x="21.59" y="1.27" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="G7" x="19.05" y="1.27" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="G6" x="16.51" y="1.27" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="G5" x="13.97" y="1.27" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="G4" x="11.43" y="1.27" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="G3" x="8.89" y="1.27" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="GND@B" x="-1.27" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="3V3@B8" x="21.59" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="RSV@B7" x="19.05" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
-<rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="8.636" y1="1.016" x2="9.144" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="13.716" y1="1.016" x2="14.224" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="18.796" y1="1.016" x2="19.304" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="16.256" y1="1.016" x2="16.764" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="21.336" y1="1.016" x2="21.844" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="18.796" y1="3.556" x2="19.304" y2="4.064" layer="51" rot="R270"/>
-<rectangle x1="21.336" y1="3.556" x2="21.844" y2="4.064" layer="51" rot="R270"/>
-<rectangle x1="-1.524" y1="3.556" x2="-1.016" y2="4.064" layer="51" rot="R270"/>
-<wire x1="15.24" y1="4.445" x2="15.875" y2="5.08" width="0.127" layer="21"/>
-<wire x1="15.875" y1="5.08" x2="17.145" y2="5.08" width="0.127" layer="21"/>
-<wire x1="17.145" y1="5.08" x2="17.78" y2="4.445" width="0.127" layer="21"/>
-<wire x1="12.7" y1="4.445" x2="13.335" y2="5.08" width="0.127" layer="21"/>
-<wire x1="10.16" y1="4.445" x2="10.795" y2="5.08" width="0.127" layer="21"/>
-<wire x1="10.795" y1="5.08" x2="12.065" y2="5.08" width="0.127" layer="21"/>
-<wire x1="12.065" y1="5.08" x2="12.7" y2="4.445" width="0.127" layer="21"/>
-<wire x1="15.24" y1="4.445" x2="14.605" y2="5.08" width="0.127" layer="21"/>
-<wire x1="13.335" y1="5.08" x2="14.605" y2="5.08" width="0.127" layer="21"/>
-<wire x1="8.255" y1="5.08" x2="9.525" y2="5.08" width="0.127" layer="21"/>
-<wire x1="9.525" y1="5.08" x2="10.16" y2="4.445" width="0.127" layer="21"/>
-<wire x1="17.78" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="21"/>
-<wire x1="17.78" y1="2.6035" x2="17.78" y2="4.5085" width="0.127" layer="21"/>
-<pad name="RSV@B6" x="16.51" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="I2C-SCL@B5" x="13.97" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="I2C-SDA@B4" x="11.43" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="SPI-CS@B3" x="8.89" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
-<rectangle x1="11.176" y1="3.556" x2="11.684" y2="4.064" layer="51" rot="R270"/>
-<rectangle x1="8.636" y1="3.556" x2="9.144" y2="4.064" layer="51" rot="R270"/>
-<rectangle x1="13.716" y1="3.556" x2="14.224" y2="4.064" layer="51" rot="R270"/>
-<rectangle x1="16.256" y1="3.556" x2="16.764" y2="4.064" layer="51" rot="R270"/>
-<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.127" layer="21"/>
-<wire x1="5.715" y1="2.54" x2="6.985" y2="2.54" width="0.127" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.127" layer="21"/>
-<wire x1="7.62" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="1.905" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0.0635" x2="2.54" y2="4.5085" width="0.127" layer="21"/>
-<wire x1="5.08" y1="0.0635" x2="5.08" y2="4.5085" width="0.127" layer="21"/>
-<wire x1="7.62" y1="0.0635" x2="7.62" y2="2.54" width="0.127" layer="21"/>
-<pad name="G2" x="6.35" y="1.27" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="G1" x="3.81" y="1.27" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="G0" x="1.27" y="1.27" drill="1.016" shape="octagon" rot="R180"/>
-<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51" rot="R270"/>
-<wire x1="7.62" y1="4.445" x2="8.255" y2="5.08" width="0.127" layer="21"/>
-<wire x1="5.08" y1="4.445" x2="5.715" y2="5.08" width="0.127" layer="21"/>
-<wire x1="2.54" y1="4.445" x2="3.175" y2="5.08" width="0.127" layer="21"/>
-<wire x1="3.175" y1="5.08" x2="4.445" y2="5.08" width="0.127" layer="21"/>
-<wire x1="4.445" y1="5.08" x2="5.08" y2="4.445" width="0.127" layer="21"/>
-<wire x1="7.62" y1="4.445" x2="6.985" y2="5.08" width="0.127" layer="21"/>
-<wire x1="5.715" y1="5.08" x2="6.985" y2="5.08" width="0.127" layer="21"/>
-<wire x1="0.635" y1="5.08" x2="1.905" y2="5.08" width="0.127" layer="21"/>
-<wire x1="1.905" y1="5.08" x2="2.54" y2="4.445" width="0.127" layer="21"/>
-<wire x1="0" y1="4.445" x2="0.635" y2="5.08" width="0.127" layer="21"/>
-<wire x1="7.62" y1="2.54" x2="0" y2="2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="2.54" x2="0" y2="4.445" width="0.127" layer="21"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="4.445" width="0.127" layer="21"/>
-<pad name="SPI-SCK@B2" x="6.35" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="SPI-MOSI@B1" x="3.81" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
-<pad name="SPI-MISO@B0" x="1.27" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
-<rectangle x1="3.556" y1="3.556" x2="4.064" y2="4.064" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="3.556" x2="1.524" y2="4.064" layer="51" rot="R270"/>
-<rectangle x1="6.096" y1="3.556" x2="6.604" y2="4.064" layer="51" rot="R270"/>
-<wire x1="7.62" y1="4.445" x2="7.62" y2="4.5085" width="0.127" layer="21"/>
-<wire x1="0" y1="1.9431" x2="0" y2="2.54" width="0.127" layer="21"/>
-<text x="23.495" y="3.175" size="1.27" layer="48">Buses Row</text>
-<text x="23.495" y="0.635" size="1.27" layer="48">General Row</text>
-<wire x1="-0.635" y1="5.08" x2="0" y2="4.445" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="5.08" x2="-0.635" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="4.445" x2="-1.905" y2="5.08" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="22.86" y1="0.0635" x2="22.86" y2="4.3561" width="0.127" layer="21"/>
-<wire x1="9.525" y1="11.43" x2="8.255" y2="11.43" width="0.127" layer="21"/>
-<wire x1="10.16" y1="11.3665" x2="10.16" y2="8.9535" width="0.127" layer="21"/>
-<wire x1="7.62" y1="11.43" x2="7.62" y2="8.9535" width="0.127" layer="21"/>
-<wire x1="7.62" y1="11.43" x2="10.16" y2="11.43" width="0.127" layer="21"/>
-<pad name="RESET@2" x="8.89" y="10.16" drill="1.016" shape="octagon"/>
-<rectangle x1="8.636" y1="9.906" x2="9.144" y2="10.414" layer="51" rot="R90"/>
-<wire x1="12.065" y1="11.43" x2="10.795" y2="11.43" width="0.127" layer="21"/>
-<wire x1="12.7" y1="11.3665" x2="12.7" y2="8.9535" width="0.127" layer="21"/>
-<wire x1="10.16" y1="11.43" x2="10.16" y2="11.3665" width="0.127" layer="21"/>
-<wire x1="10.16" y1="11.43" x2="12.7" y2="11.43" width="0.127" layer="21"/>
-<pad name="5V@2" x="11.43" y="10.16" drill="1.016" shape="octagon"/>
-<rectangle x1="11.176" y1="9.906" x2="11.684" y2="10.414" layer="51" rot="R90"/>
-<wire x1="7.62" y1="8.89" x2="12.7" y2="8.89" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="ECOG">
@@ -1562,7 +1442,7 @@ DIN A4, landscape with location and doc. field</description>
 <pin name="G7" x="7.62" y="22.86" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3V3@G8" x="7.62" y="25.4" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="GND@G" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="RSV@B7" x="-5.08" y="22.86" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="5V@B7" x="-5.08" y="22.86" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="3V3@B8" x="-5.08" y="25.4" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="GND@B" x="-5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
@@ -1578,15 +1458,13 @@ DIN A4, landscape with location and doc. field</description>
 <pin name="SPI-CS@B3" x="-5.08" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="I2C-SDA@B4" x="-5.08" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="I2C-SCL@B5" x="-5.08" y="17.78" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="RSV@B6" x="-5.08" y="20.32" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="RESET@B6" x="-5.08" y="20.32" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <wire x1="-1.27" y1="10.16" x2="0" y2="10.16" width="0.6096" layer="94"/>
 <wire x1="-1.27" y1="7.62" x2="0" y2="7.62" width="0.6096" layer="94"/>
 <wire x1="-1.27" y1="5.08" x2="0" y2="5.08" width="0.6096" layer="94"/>
 <pin name="SPI-MISO@B0" x="-5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="SPI-MOSI@B1" x="-5.08" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="SPI-SCK@B2" x="-5.08" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="5V@0" x="0.508" y="32.004" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="RESET@1" x="3.048" y="32.004" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1599,6 +1477,7 @@ DIN A4, landscape with location and doc. field</description>
 <connects>
 <connect gate="ECOG$1" pin="3V3@B8" pad="3V3@B8"/>
 <connect gate="ECOG$1" pin="3V3@G8" pad="3V3@G8"/>
+<connect gate="ECOG$1" pin="5V@B7" pad="5V@B7"/>
 <connect gate="ECOG$1" pin="G0" pad="G0"/>
 <connect gate="ECOG$1" pin="G1" pad="G1"/>
 <connect gate="ECOG$1" pin="G2" pad="G2"/>
@@ -1611,37 +1490,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="ECOG$1" pin="GND@G" pad="GND@G"/>
 <connect gate="ECOG$1" pin="I2C-SCL@B5" pad="I2C-SCL@B5"/>
 <connect gate="ECOG$1" pin="I2C-SDA@B4" pad="I2C-SDA@B4"/>
-<connect gate="ECOG$1" pin="RSV@B6" pad="RESET@B6"/>
-<connect gate="ECOG$1" pin="RSV@B7" pad="5V@B7"/>
-<connect gate="ECOG$1" pin="SPI-CS@B3" pad="SPI-CS@B3"/>
-<connect gate="ECOG$1" pin="SPI-MISO@B0" pad="SPI-MISO@B0"/>
-<connect gate="ECOG$1" pin="SPI-MOSI@B1" pad="SPI-MOSI@B1"/>
-<connect gate="ECOG$1" pin="SPI-SCK@B2" pad="SPI-SCK@B2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="ECOG_SLOT_ALT1" package="ECOG_ALT1">
-<connects>
-<connect gate="ECOG$1" pin="3V3@B8" pad="3V3@B8"/>
-<connect gate="ECOG$1" pin="3V3@G8" pad="3V3@G8"/>
-<connect gate="ECOG$1" pin="5V@0" pad="5V@2"/>
-<connect gate="ECOG$1" pin="G0" pad="G0"/>
-<connect gate="ECOG$1" pin="G1" pad="G1"/>
-<connect gate="ECOG$1" pin="G2" pad="G2"/>
-<connect gate="ECOG$1" pin="G3" pad="G3"/>
-<connect gate="ECOG$1" pin="G4" pad="G4"/>
-<connect gate="ECOG$1" pin="G5" pad="G5"/>
-<connect gate="ECOG$1" pin="G6" pad="G6"/>
-<connect gate="ECOG$1" pin="G7" pad="G7"/>
-<connect gate="ECOG$1" pin="GND@B" pad="GND@B"/>
-<connect gate="ECOG$1" pin="GND@G" pad="GND@G"/>
-<connect gate="ECOG$1" pin="I2C-SCL@B5" pad="I2C-SCL@B5"/>
-<connect gate="ECOG$1" pin="I2C-SDA@B4" pad="I2C-SDA@B4"/>
-<connect gate="ECOG$1" pin="RESET@1" pad="RESET@2"/>
-<connect gate="ECOG$1" pin="RSV@B6" pad="RSV@B6"/>
-<connect gate="ECOG$1" pin="RSV@B7" pad="RSV@B7"/>
+<connect gate="ECOG$1" pin="RESET@B6" pad="RESET@B6"/>
 <connect gate="ECOG$1" pin="SPI-CS@B3" pad="SPI-CS@B3"/>
 <connect gate="ECOG$1" pin="SPI-MISO@B0" pad="SPI-MISO@B0"/>
 <connect gate="ECOG$1" pin="SPI-MOSI@B1" pad="SPI-MOSI@B1"/>
@@ -5839,16 +5688,16 @@ Source: 008-0260-0_E.pdf</description>
 <part name="3V3_PWR15" library="GadgetFactory" deviceset="3V3" device=""/>
 <part name="3V3_PWR16" library="GadgetFactory" deviceset="3V3" device=""/>
 <part name="3V3_PWR18" library="GadgetFactory" deviceset="3V3" device=""/>
-<part name="BH" library="eCogs" deviceset="ECOG" device="ECOG_SLOT_ALT1" value="ECOGECOG_SLOT_ALT1">
+<part name="BH" library="eCogs" deviceset="ECOG" device="ECOG_SLOT" value="ECOGECOG_SLOT">
 <attribute name="PARTNO" value="PPPC102LFBN-RC,SULLINS CONNECTOR SOLUTIONS,dk,S6106-ND,&quot;CONN HEADER FEM 20POS.1&quot;&quot; DL GOLD&quot;, REF67"/>
 </part>
-<part name="AL" library="eCogs" deviceset="ECOG" device="ECOG_SLOT_ALT1" value="ECOGECOG_SLOT_ALT1">
+<part name="AL" library="eCogs" deviceset="ECOG" device="ECOG_SLOT" value="ECOGECOG_SLOT">
 <attribute name="PARTNO" value="PPPC102LFBN-RC,SULLINS CONNECTOR SOLUTIONS,dk,S6106-ND,&quot;CONN HEADER FEM 20POS.1&quot;&quot; DL GOLD&quot;, REF67"/>
 </part>
-<part name="AH" library="eCogs" deviceset="ECOG" device="ECOG_SLOT_ALT1" value="ECOGECOG_SLOT_ALT1">
+<part name="AH" library="eCogs" deviceset="ECOG" device="ECOG_SLOT" value="ECOGECOG_SLOT">
 <attribute name="PARTNO" value="PPPC102LFBN-RC,SULLINS CONNECTOR SOLUTIONS,dk,S6106-ND,&quot;CONN HEADER FEM 20POS.1&quot;&quot; DL GOLD&quot;, REF67"/>
 </part>
-<part name="BL" library="eCogs" deviceset="ECOG" device="ECOG_SLOT_ALT1" value="ECOGECOG_SLOT_ALT1">
+<part name="BL" library="eCogs" deviceset="ECOG" device="ECOG_SLOT" value="ECOGECOG_SLOT">
 <attribute name="PARTNO" value="PPPC102LFBN-RC,SULLINS CONNECTOR SOLUTIONS,dk,S6106-ND,&quot;CONN HEADER FEM 20POS.1&quot;&quot; DL GOLD&quot;, REF67"/>
 </part>
 <part name="GND1" library="GadgetFactory" deviceset="GND" device=""/>
@@ -5923,9 +5772,6 @@ Source: 008-0260-0_E.pdf</description>
 <attribute name="PARTNO" value="C1608X5R1A105K080AC,TDK CORPORATION (VA),dk,445-1321-1-ND,CAP CER 1UF 10V X5R 0603, REF53"/>
 </part>
 <part name="5V0_PWR2" library="GadgetFactory" deviceset="5V0" device=""/>
-<part name="5V0_PWR3" library="GadgetFactory" deviceset="5V0" device=""/>
-<part name="5V0_PWR4" library="GadgetFactory" deviceset="5V0" device=""/>
-<part name="5V0_PWR5" library="GadgetFactory" deviceset="5V0" device=""/>
 <part name="R4" library="GadgetFactory" deviceset="R" device="0603" value="10K">
 <attribute name="PARTNO" value="RC0603JR-0710KL,YAGEO (VA),dk,311-10KGRCT-ND,RES SMD 10K OHM 5% 1/10W 0603 , REF36"/>
 </part>
@@ -5983,6 +5829,9 @@ Source: 008-0260-0_E.pdf</description>
 <part name="USB1" library="Seeed-OPL-Connector" deviceset="MINI-USB2.0-RECEPT-5POS-4-LEGS-(ST-USB-013A)" device="" value="ST-USB-013A"/>
 <part name="U$1" library="microbuilder" deviceset="VBUS" device=""/>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
+<part name="5V0_PWR1" library="GadgetFactory" deviceset="5V0" device=""/>
+<part name="5V0_PWR3" library="GadgetFactory" deviceset="5V0" device=""/>
+<part name="5V0_PWR4" library="GadgetFactory" deviceset="5V0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6007,8 +5856,7 @@ Source: 008-0260-0_E.pdf</description>
 <attribute name="NAME" x="152.908" y="66.04" size="1.778" layer="95" rot="R180"/>
 <attribute name="PARTNO" x="152.4" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="BL" gate="ECOG$1" x="104.14" y="35.56" smashed="yes">
-<attribute name="NAME" x="103.124" y="64.516" size="1.778" layer="95"/>
+<instance part="BL" gate="ECOG$1" x="104.14" y="35.56">
 <attribute name="PARTNO" x="104.14" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="A" x="111.76" y="78.74"/>
@@ -6022,10 +5870,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="GND8" gate="A" x="144.78" y="66.04" rot="R180"/>
 <instance part="GND9" gate="A" x="157.48" y="66.04" rot="R180"/>
 <instance part="3V3_PWR9" gate="A" x="111.76" y="109.22"/>
-<instance part="5V0_PWR2" gate="A" x="104.648" y="113.284"/>
-<instance part="5V0_PWR3" gate="A" x="151.892" y="72.136" rot="R180"/>
-<instance part="5V0_PWR4" gate="A" x="151.892" y="28.956" rot="R180"/>
-<instance part="5V0_PWR5" gate="A" x="104.648" y="70.104"/>
+<instance part="5V0_PWR2" gate="A" x="81.28" y="101.6" rot="R90"/>
 <instance part="R4" gate="A" x="193.04" y="96.52" rot="R90">
 <attribute name="PARTNO" x="193.04" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
@@ -6034,6 +5879,9 @@ Source: 008-0260-0_E.pdf</description>
 </instance>
 <instance part="3V3_PWR1" gate="A" x="193.04" y="104.14"/>
 <instance part="3V3_PWR2" gate="A" x="200.66" y="101.6"/>
+<instance part="5V0_PWR1" gate="A" x="78.74" y="58.42" rot="R90"/>
+<instance part="5V0_PWR3" gate="A" x="177.8" y="83.82" rot="R270"/>
+<instance part="5V0_PWR4" gate="A" x="177.8" y="40.64" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6312,30 +6160,24 @@ Source: 008-0260-0_E.pdf</description>
 </net>
 <net name="RESET" class="0">
 <segment>
-<wire x1="106.68" y1="119.38" x2="107.188" y2="119.38" width="0.2032" layer="91"/>
-<label x="111.76" y="119.507" size="1.27" layer="95" xref="yes"/>
-<pinref part="BH" gate="ECOG$1" pin="RESET@1"/>
-<wire x1="107.188" y1="119.38" x2="111.76" y2="119.38" width="0.2032" layer="91"/>
-<wire x1="107.188" y1="110.744" x2="107.188" y2="119.38" width="0.2032" layer="91"/>
+<label x="86.36" y="98.933" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="86.36" y1="99.06" x2="99.06" y2="99.06" width="0.2032" layer="91"/>
+<pinref part="BH" gate="ECOG$1" pin="RESET@B6"/>
 </segment>
 <segment>
-<pinref part="AL" gate="ECOG$1" pin="RESET@1"/>
-<wire x1="149.352" y1="74.676" x2="149.352" y2="70.612" width="0.2032" layer="91"/>
-<wire x1="149.352" y1="70.612" x2="141.732" y2="70.612" width="0.2032" layer="91"/>
-<label x="142.113" y="70.358" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="157.48" y1="86.36" x2="182.88" y2="86.36" width="0.2032" layer="91"/>
+<pinref part="AL" gate="ECOG$1" pin="RESET@B6"/>
+<label x="170.18" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="111.76" y="72.644" size="1.27" layer="95" xref="yes"/>
-<pinref part="BL" gate="ECOG$1" pin="RESET@1"/>
-<wire x1="107.188" y1="72.644" x2="111.76" y2="72.644" width="0.2032" layer="91"/>
-<wire x1="107.188" y1="67.564" x2="107.188" y2="72.644" width="0.2032" layer="91"/>
+<wire x1="157.48" y1="43.18" x2="182.88" y2="43.18" width="0.2032" layer="91"/>
+<pinref part="AH" gate="ECOG$1" pin="RESET@B6"/>
+<label x="170.18" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AH" gate="ECOG$1" pin="RESET@1"/>
-<wire x1="149.352" y1="31.496" x2="149.352" y2="26.924" width="0.2032" layer="91"/>
-<wire x1="149.352" y1="26.924" x2="141.478" y2="26.924" width="0.2032" layer="91"/>
-<wire x1="141.478" y1="26.924" x2="141.478" y2="27.178" width="0.2032" layer="91"/>
-<label x="141.859" y="26.797" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="73.66" y1="55.88" x2="99.06" y2="55.88" width="0.2032" layer="91"/>
+<pinref part="BL" gate="ECOG$1" pin="RESET@B6"/>
+<label x="73.66" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -6422,24 +6264,6 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="157.48" y1="63.5" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5V0" class="0">
-<segment>
-<pinref part="BH" gate="ECOG$1" pin="5V@0"/>
-<pinref part="5V0_PWR2" gate="A" pin="5V0"/>
-</segment>
-<segment>
-<pinref part="AL" gate="ECOG$1" pin="5V@0"/>
-<pinref part="5V0_PWR3" gate="A" pin="5V0"/>
-</segment>
-<segment>
-<pinref part="AH" gate="ECOG$1" pin="5V@0"/>
-<pinref part="5V0_PWR4" gate="A" pin="5V0"/>
-</segment>
-<segment>
-<pinref part="BL" gate="ECOG$1" pin="5V@0"/>
-<pinref part="5V0_PWR5" gate="A" pin="5V0"/>
-</segment>
-</net>
 <net name="SPI-CSA" class="0">
 <segment>
 <label x="86.36" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -6452,6 +6276,28 @@ Source: 008-0260-0_E.pdf</description>
 <label x="73.66" y="48.26" size="1.778" layer="95"/>
 <pinref part="BL" gate="ECOG$1" pin="SPI-CS@B3"/>
 <wire x1="73.66" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V0" class="0">
+<segment>
+<pinref part="BH" gate="ECOG$1" pin="5V@B7"/>
+<pinref part="5V0_PWR2" gate="A" pin="5V0"/>
+<wire x1="83.82" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BL" gate="ECOG$1" pin="5V@B7"/>
+<pinref part="5V0_PWR1" gate="A" pin="5V0"/>
+<wire x1="81.28" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="AL" gate="ECOG$1" pin="5V@B7"/>
+<pinref part="5V0_PWR3" gate="A" pin="5V0"/>
+<wire x1="175.26" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="AH" gate="ECOG$1" pin="5V@B7"/>
+<pinref part="5V0_PWR4" gate="A" pin="5V0"/>
+<wire x1="175.26" y1="40.64" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
