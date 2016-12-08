@@ -3298,22 +3298,22 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="8.7122" y1="15.748" x2="8.7122" y2="-11.938" width="0.127" layer="21"/>
 <wire x1="8.7122" y1="-11.938" x2="-8.6868" y2="-11.938" width="0.127" layer="21"/>
 <wire x1="-8.6868" y1="-11.938" x2="-8.6868" y2="15.748" width="0.127" layer="21"/>
-<pad name="IN-" x="-6.9088" y="13.716" drill="1" diameter="1.4224" shape="square" rot="R90"/>
-<pad name="IN+" x="6.8072" y="13.716" drill="1" diameter="1.4224" shape="square" rot="R90"/>
+<pad name="IN-" x="-6.9088" y="13.716" drill="1" diameter="2.3" shape="square" rot="R90"/>
+<pad name="IN+" x="6.8072" y="13.716" drill="1" diameter="2.3" shape="square" rot="R90"/>
 <wire x1="4.734559375" y1="8.41248125" x2="-4.04368125" y2="8.41248125" width="0.127" layer="21"/>
 <wire x1="-4.04368125" y1="15.72768125" x2="-4.04368125" y2="8.41248125" width="0.127" layer="21"/>
 <wire x1="4.734559375" y1="8.41248125" x2="4.734559375" y2="15.72768125" width="0.127" layer="21"/>
 <text x="-1.5748" y="11.938" size="1.27" layer="21">USB</text>
 <text x="-3.6068" y="3.302" size="1.27" layer="21">TP4056</text>
-<pad name="OUT-" x="-6.9088" y="-8.89" drill="1" diameter="1.4224" shape="square"/>
-<pad name="OUT+" x="6.8072" y="-8.89" drill="1" diameter="1.4224" shape="square"/>
+<pad name="OUT-" x="-6.9088" y="-8.89" drill="1" diameter="2.3" shape="square"/>
+<pad name="OUT+" x="6.8072" y="-8.89" drill="1" diameter="2.3" shape="square"/>
 <text x="-6.4643" y="9.017" size="1.016" layer="21" rot="R90">IN -</text>
 <text x="7.3787" y="9.017" size="1.016" layer="21" rot="R90">IN +</text>
 <text x="-6.4643" y="-7.493" size="1.016" layer="21" rot="R90">OUT-</text>
 <text x="7.2517" y="-7.493" size="1.016" layer="21" rot="R90">OUT+</text>
 <text x="-4.2418" y="2.032" size="0.8128" layer="21">LI-ION Charger</text>
-<pad name="BAT-" x="-3.6068" y="-8.89" drill="1" diameter="1.4224" shape="square"/>
-<pad name="BAT+" x="3.5052" y="-8.89" drill="1" diameter="1.4224" shape="square"/>
+<pad name="BAT-" x="-3.6068" y="-8.89" drill="1" diameter="2.3" shape="square"/>
+<pad name="BAT+" x="3.5052" y="-8.89" drill="1" diameter="2.3" shape="square"/>
 <text x="-3.1623" y="-7.493" size="1.016" layer="21" rot="R90">BAT -</text>
 <text x="3.9497" y="-7.493" size="1.016" layer="21" rot="R90">BAT +</text>
 <wire x1="-0.5588" y1="-11.938" x2="0.0127" y2="-11.938" width="0.127" layer="51" style="shortdash"/>
