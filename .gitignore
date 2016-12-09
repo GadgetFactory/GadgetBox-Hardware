@@ -74,3 +74,4 @@ GadgetBox-mini-pro/Mini_Pro_Module_Cost_Analysis.xlsx
 GadgetBox-Teensy/Teensy_Module_Cost_Analysis.xlsx
 hardware/GadgetBox-328pb/PCB Technology Requirement Format V.00.xls
 hardware/GadgetBox-Teensy/Teensy_Module_Cost_Analysis.xlsx
+*.nc
