@@ -199,78 +199,73 @@ DIN A3, landscape with location and doc. field</description>
 </library>
 <library name="eCogs">
 <packages>
-<package name="ECOG_BUSES_TH">
-<wire x1="7.62" y1="26.67" x2="7.62" y2="1.27" width="0.127" layer="22"/>
-<wire x1="7.62" y1="26.67" x2="10.16" y2="26.67" width="0.127" layer="22"/>
-<rectangle x1="8.632890625" y1="11.181371875" x2="9.140890625" y2="11.689371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="13.721371875" x2="9.140890625" y2="14.229371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="18.801371875" x2="9.140890625" y2="19.309371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="21.341371875" x2="9.140890625" y2="21.849371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="23.881371875" x2="9.140890625" y2="24.389371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="6.101371875" x2="9.140890625" y2="6.609371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="4.831371875" x2="9.140890625" y2="5.339371875" layer="52" rot="R270"/>
-<rectangle x1="8.632890625" y1="3.561371875" x2="9.140890625" y2="4.069371875" layer="22" rot="R270"/>
-<wire x1="4.014" y1="24.043" x2="-1.816" y2="24.043" width="0.127" layer="47"/>
-<wire x1="-1.816" y1="24.043" x2="-2.451" y2="24.043" width="0.127" layer="47"/>
-<wire x1="-1.816" y1="24.043" x2="-1.816" y2="28.043" width="0.127" layer="47"/>
-<wire x1="1.359" y1="28.043" x2="-2.451" y2="28.043" width="0.127" layer="47"/>
-<text x="-5.626" y="29.078" size="2.54" layer="47" rot="R270">4.0mm</text>
-<hole x="4.004" y="24.003" drill="3.6"/>
-<hole x="4.004" y="4.003" drill="3.6"/>
+<package name="ECOG_GENERAL_TH">
+<wire x1="4.01" y1="24.04" x2="-1.82" y2="24.04" width="0.127" layer="47"/>
+<wire x1="-1.82" y1="24.04" x2="-2.455" y2="24.04" width="0.127" layer="47"/>
+<wire x1="-1.82" y1="24.04" x2="-1.82" y2="28.04" width="0.127" layer="47"/>
+<wire x1="1.355" y1="28.04" x2="-2.455" y2="28.04" width="0.127" layer="47"/>
+<text x="-5.63" y="29.075" size="2.54" layer="47" rot="R270">4.0mm</text>
+<hole x="4" y="24" drill="3.8"/>
+<hole x="4" y="4" drill="3.8"/>
 <polygon width="0" layer="41">
-<vertex x="0.504" y="7.043"/>
-<vertex x="4.014" y="7.043" curve="-90"/>
-<vertex x="7.014" y="4.043"/>
-<vertex x="7.014" y="0.043"/>
-<vertex x="4.014" y="0.043" curve="-90"/>
-<vertex x="0.504" y="4.043"/>
+<vertex x="0.5" y="7.04"/>
+<vertex x="4.01" y="7.04" curve="-90"/>
+<vertex x="7.01" y="4.04"/>
+<vertex x="7.01" y="0.04"/>
+<vertex x="4.01" y="0.04" curve="-90"/>
+<vertex x="0.5" y="4.04"/>
 </polygon>
 <polygon width="0" layer="42">
-<vertex x="0.504" y="7.043"/>
-<vertex x="4.014" y="7.043" curve="-90"/>
-<vertex x="7.014" y="4.043"/>
-<vertex x="7.014" y="0.043"/>
-<vertex x="4.014" y="0.043" curve="-90"/>
-<vertex x="0.504" y="4.043"/>
+<vertex x="0.5" y="7.04"/>
+<vertex x="4.01" y="7.04" curve="-90"/>
+<vertex x="7.01" y="4.04"/>
+<vertex x="7.01" y="0.04"/>
+<vertex x="4.01" y="0.04" curve="-90"/>
+<vertex x="0.5" y="4.04"/>
 </polygon>
 <polygon width="0" layer="43">
-<vertex x="0.504" y="7.043"/>
-<vertex x="4.014" y="7.043" curve="-90"/>
-<vertex x="7.014" y="4.043"/>
-<vertex x="7.014" y="0.043"/>
-<vertex x="4.014" y="0.043" curve="-90"/>
-<vertex x="0.504" y="4.043"/>
+<vertex x="0.5" y="7.04"/>
+<vertex x="4.01" y="7.04" curve="-90"/>
+<vertex x="7.01" y="4.04"/>
+<vertex x="7.01" y="0.04"/>
+<vertex x="4.01" y="0.04" curve="-90"/>
+<vertex x="0.5" y="4.04"/>
 </polygon>
 <polygon width="0" layer="41">
-<vertex x="7.014" y="28.043"/>
-<vertex x="7.014" y="24.043" curve="-90"/>
-<vertex x="4.014" y="21.043"/>
-<vertex x="0.504" y="21.043"/>
-<vertex x="0.504" y="24.043" curve="-90"/>
-<vertex x="4.014" y="28.043"/>
+<vertex x="7.01" y="28.04"/>
+<vertex x="7.01" y="24.04" curve="-90"/>
+<vertex x="4.01" y="21.04"/>
+<vertex x="0.5" y="21.04"/>
+<vertex x="0.5" y="24.04" curve="-90"/>
+<vertex x="4.01" y="28.04"/>
 </polygon>
 <polygon width="0" layer="42">
-<vertex x="7.014" y="28.043"/>
-<vertex x="7.014" y="24.043" curve="-90"/>
-<vertex x="4.014" y="21.043"/>
-<vertex x="0.504" y="21.043"/>
-<vertex x="0.504" y="24.043" curve="-90"/>
-<vertex x="4.014" y="28.043"/>
+<vertex x="7.01" y="28.04"/>
+<vertex x="7.01" y="24.04" curve="-90"/>
+<vertex x="4.01" y="21.04"/>
+<vertex x="0.5" y="21.04"/>
+<vertex x="0.5" y="24.04" curve="-90"/>
+<vertex x="4.01" y="28.04"/>
 </polygon>
 <polygon width="0" layer="43">
-<vertex x="7.014" y="28.043"/>
-<vertex x="7.014" y="24.043" curve="-90"/>
-<vertex x="4.014" y="21.043"/>
-<vertex x="0.504" y="21.043"/>
-<vertex x="0.504" y="24.043" curve="-90"/>
-<vertex x="4.014" y="28.043"/>
+<vertex x="7.01" y="28.04"/>
+<vertex x="7.01" y="24.04" curve="-90"/>
+<vertex x="4.01" y="21.04"/>
+<vertex x="0.5" y="21.04"/>
+<vertex x="0.5" y="24.04" curve="-90"/>
+<vertex x="4.01" y="28.04"/>
 </polygon>
-<wire x1="24.004" y1="0.003" x2="24.004" y2="28.003" width="0.127" layer="48"/>
-<wire x1="48.004" y1="14.003" x2="0.504" y2="14.003" width="0.127" layer="48"/>
-<wire x1="48.004" y1="28.003" x2="48.004" y2="0.003" width="0.127" layer="20"/>
-<wire x1="4.004" y1="0.003" x2="0.504" y2="4.003" width="0.127" layer="20" curve="-90"/>
-<wire x1="0.504" y1="4.003" x2="0.504" y2="24.003" width="0.127" layer="20"/>
-<wire x1="0.504" y1="24.003" x2="4.004" y2="28.003" width="0.127" layer="20" curve="-90"/>
+<wire x1="48" y1="28" x2="48" y2="0" width="0.127" layer="20"/>
+<wire x1="24" y1="0" x2="24" y2="28" width="0.127" layer="48"/>
+<wire x1="48" y1="14" x2="0.5" y2="14" width="0.127" layer="48"/>
+<wire x1="4" y1="0" x2="0.5" y2="4" width="0.127" layer="20" curve="-90"/>
+<wire x1="0.5" y1="4" x2="0.5" y2="24" width="0.127" layer="20"/>
+<wire x1="0.5" y1="24" x2="4" y2="28" width="0.127" layer="20" curve="-90"/>
+<rectangle x1="11.175" y1="23.905" x2="11.683" y2="24.413" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="18.825" x2="11.683" y2="19.333" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="13.745" x2="11.683" y2="14.253" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="8.665" x2="11.683" y2="9.173" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="6.125" x2="11.683" y2="6.633" layer="22" rot="R180"/>
 <wire x1="48" y1="0" x2="20" y2="0" width="0.127" layer="20"/>
 <wire x1="20" y1="0" x2="20" y2="2" width="0.127" layer="20"/>
 <wire x1="20" y1="2" x2="15" y2="2" width="0.127" layer="20"/>
@@ -281,108 +276,111 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="20" y1="26" x2="15" y2="26" width="0.127" layer="20"/>
 <wire x1="15" y1="26" x2="15" y2="28" width="0.127" layer="20"/>
 <wire x1="15" y1="28" x2="4" y2="28" width="0.127" layer="20"/>
-<wire x1="7.61" y1="1.3" x2="10.11" y2="1.3" width="0.127" layer="22"/>
-<wire x1="10.11" y1="26.7" x2="10.11" y2="1.3" width="0.127" layer="22"/>
-<rectangle x1="8.626" y1="16.286" x2="9.134" y2="16.794" layer="22" rot="R270"/>
-<rectangle x1="8.626" y1="8.666" x2="9.134" y2="9.174" layer="22" rot="R270"/>
-<rectangle x1="8.626" y1="4.856" x2="9.134" y2="5.364" layer="52" rot="R270"/>
-<pad name="GND" x="8.89" y="2.54" drill="0.8" shape="square" rot="R180"/>
-<pad name="SPI-MISO" x="8.89" y="5.08" drill="0.8" rot="R180"/>
-<pad name="SPI-MOSI" x="8.89" y="7.62" drill="0.8" rot="R180"/>
-<pad name="SPI-SCK" x="8.89" y="10.16" drill="0.8" rot="R180"/>
-<pad name="SPI-CS" x="8.89" y="12.7" drill="0.8" rot="R180"/>
-<pad name="I2C-SDA" x="8.89" y="15.24" drill="0.8" rot="R180"/>
-<pad name="I2C-SCL" x="8.89" y="17.78" drill="0.8" rot="R180"/>
-<pad name="RESET" x="8.89" y="20.32" drill="0.8" rot="R180"/>
-<pad name="5V0" x="8.89" y="22.86" drill="0.8" rot="R180"/>
-<pad name="3V3" x="8.89" y="25.4" drill="0.8" rot="R180"/>
+<wire x1="10.15" y1="26.7" x2="10.15" y2="1.3" width="0.127" layer="22"/>
+<wire x1="10.15" y1="26.7" x2="12.65" y2="26.7" width="0.127" layer="22"/>
+<wire x1="10.15" y1="1.3" x2="12.65" y2="1.3" width="0.127" layer="22"/>
+<wire x1="12.65" y1="26.7" x2="12.65" y2="1.3" width="0.127" layer="22"/>
+<rectangle x1="11.166" y1="11.206" x2="11.674" y2="11.714" layer="22" rot="R270"/>
+<rectangle x1="11.166" y1="16.286" x2="11.674" y2="16.794" layer="22" rot="R270"/>
+<rectangle x1="11.166" y1="21.366" x2="11.674" y2="21.874" layer="22" rot="R270"/>
+<rectangle x1="11.166" y1="4.856" x2="11.674" y2="5.364" layer="52" rot="R270"/>
+<rectangle x1="11.166" y1="3.586" x2="11.674" y2="4.094" layer="22" rot="R270"/>
+<pad name="GND" x="11.43" y="2.54" drill="0.8" shape="square" rot="R180"/>
+<pad name="G0" x="11.43" y="5.08" drill="0.8" rot="R180"/>
+<pad name="G1" x="11.43" y="7.62" drill="0.8" rot="R180"/>
+<pad name="G2" x="11.43" y="10.16" drill="0.8" rot="R180"/>
+<pad name="G3" x="11.43" y="12.7" drill="0.8" rot="R180"/>
+<pad name="G4" x="11.43" y="15.24" drill="0.8" rot="R180"/>
+<pad name="G5" x="11.43" y="17.78" drill="0.8" rot="R180"/>
+<pad name="G6" x="11.43" y="20.32" drill="0.8" rot="R180"/>
+<pad name="G7" x="11.43" y="22.86" drill="0.8" rot="R180"/>
+<pad name="3V3" x="11.43" y="25.4" drill="0.8" rot="R180"/>
 </package>
-<package name="ECOG_BUSES_SMD">
-<wire x1="7.62" y1="26.67" x2="7.62" y2="1.27" width="0.127" layer="22"/>
-<wire x1="7.62" y1="26.67" x2="10.16" y2="26.67" width="0.127" layer="22"/>
-<wire x1="7.62" y1="1.27" x2="10.16" y2="1.27" width="0.127" layer="22"/>
-<wire x1="10.16" y1="26.67" x2="10.16" y2="1.27" width="0.127" layer="22"/>
-<smd name="3V3" x="7.337490625" y="25.4" dx="3.4" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="5V0" x="10.436290625" y="22.86" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="RESET" x="7.337490625" y="20.32" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="I2C-SCL" x="10.436290625" y="17.78" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="I2C-SDA" x="7.337490625" y="15.24" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="SPI-CS" x="10.436290625" y="12.7" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="SPI-SCK" x="7.337490625" y="10.16" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="SPI-MOSI" x="10.436290625" y="7.62" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="SPI-MISO" x="7.337490625" y="5.08" dx="3.1" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="GND" x="10.436290625" y="2.54" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<rectangle x1="8.632890625" y1="11.181371875" x2="9.140890625" y2="11.689371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="13.721371875" x2="9.140890625" y2="14.229371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="16.261371875" x2="9.140890625" y2="16.769371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="18.801371875" x2="9.140890625" y2="19.309371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="21.341371875" x2="9.140890625" y2="21.849371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="23.881371875" x2="9.140890625" y2="24.389371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="8.641371875" x2="9.140890625" y2="9.149371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="6.101371875" x2="9.140890625" y2="6.609371875" layer="22" rot="R270"/>
-<rectangle x1="8.632890625" y1="4.831371875" x2="9.140890625" y2="5.339371875" layer="52" rot="R270"/>
-<rectangle x1="8.632890625" y1="3.561371875" x2="9.140890625" y2="4.069371875" layer="22" rot="R270"/>
-<wire x1="4.014" y1="24.043" x2="-1.816" y2="24.043" width="0.127" layer="47"/>
-<wire x1="-1.816" y1="24.043" x2="-2.451" y2="24.043" width="0.127" layer="47"/>
-<wire x1="-1.816" y1="24.043" x2="-1.816" y2="28.043" width="0.127" layer="47"/>
-<wire x1="1.359" y1="28.043" x2="-2.451" y2="28.043" width="0.127" layer="47"/>
-<text x="-5.626" y="29.078" size="2.54" layer="47" rot="R270">4.0mm</text>
-<hole x="4.004" y="24.003" drill="3.6"/>
-<hole x="4.004" y="4.003" drill="3.6"/>
+<package name="ECOG_GENERAL_SMD">
+<wire x1="10.159" y1="26.699" x2="10.159" y2="1.299" width="0.127" layer="22"/>
+<wire x1="10.159" y1="26.699" x2="12.70264375" y2="26.7010625" width="0.127" layer="22"/>
+<wire x1="10.159" y1="1.299" x2="12.699" y2="1.299" width="0.127" layer="22"/>
+<wire x1="12.70264375" y1="26.7010625" x2="12.699" y2="1.299" width="0.127" layer="22"/>
+<smd name="3V3" x="9.92324375" y="25.429" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<smd name="G7" x="13.02204375" y="22.889" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<smd name="G6" x="9.92324375" y="20.349" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<smd name="G5" x="13.02204375" y="17.809" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<smd name="G4" x="9.92324375" y="15.269" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<smd name="G3" x="13.02204375" y="12.729" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<smd name="G2" x="9.92324375" y="10.189" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<smd name="G1" x="13.02204375" y="7.649" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<smd name="G0" x="9.92324375" y="5.1110625" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<smd name="GND" x="13.02204375" y="2.5710625" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<wire x1="4.01" y1="24.04" x2="-1.82" y2="24.04" width="0.127" layer="47"/>
+<wire x1="-1.82" y1="24.04" x2="-2.455" y2="24.04" width="0.127" layer="47"/>
+<wire x1="-1.82" y1="24.04" x2="-1.82" y2="28.04" width="0.127" layer="47"/>
+<wire x1="1.355" y1="28.04" x2="-2.455" y2="28.04" width="0.127" layer="47"/>
+<text x="-5.63" y="29.075" size="2.54" layer="47" rot="R270">4.0mm</text>
+<hole x="4" y="24" drill="3.8"/>
+<hole x="4" y="4" drill="3.8"/>
 <polygon width="0" layer="41">
-<vertex x="0.504" y="7.043"/>
-<vertex x="4.014" y="7.043" curve="-90"/>
-<vertex x="7.014" y="4.043"/>
-<vertex x="7.014" y="0.043"/>
-<vertex x="4.014" y="0.043" curve="-90"/>
-<vertex x="0.504" y="4.043"/>
+<vertex x="0.5" y="7.04"/>
+<vertex x="4.01" y="7.04" curve="-90"/>
+<vertex x="7.01" y="4.04"/>
+<vertex x="7.01" y="0.04"/>
+<vertex x="4.01" y="0.04" curve="-90"/>
+<vertex x="0.5" y="4.04"/>
 </polygon>
 <polygon width="0" layer="42">
-<vertex x="0.504" y="7.043"/>
-<vertex x="4.014" y="7.043" curve="-90"/>
-<vertex x="7.014" y="4.043"/>
-<vertex x="7.014" y="0.043"/>
-<vertex x="4.014" y="0.043" curve="-90"/>
-<vertex x="0.504" y="4.043"/>
+<vertex x="0.5" y="7.04"/>
+<vertex x="4.01" y="7.04" curve="-90"/>
+<vertex x="7.01" y="4.04"/>
+<vertex x="7.01" y="0.04"/>
+<vertex x="4.01" y="0.04" curve="-90"/>
+<vertex x="0.5" y="4.04"/>
 </polygon>
 <polygon width="0" layer="43">
-<vertex x="0.504" y="7.043"/>
-<vertex x="4.014" y="7.043" curve="-90"/>
-<vertex x="7.014" y="4.043"/>
-<vertex x="7.014" y="0.043"/>
-<vertex x="4.014" y="0.043" curve="-90"/>
-<vertex x="0.504" y="4.043"/>
+<vertex x="0.5" y="7.04"/>
+<vertex x="4.01" y="7.04" curve="-90"/>
+<vertex x="7.01" y="4.04"/>
+<vertex x="7.01" y="0.04"/>
+<vertex x="4.01" y="0.04" curve="-90"/>
+<vertex x="0.5" y="4.04"/>
 </polygon>
 <polygon width="0" layer="41">
-<vertex x="7.014" y="28.043"/>
-<vertex x="7.014" y="24.043" curve="-90"/>
-<vertex x="4.014" y="21.043"/>
-<vertex x="0.504" y="21.043"/>
-<vertex x="0.504" y="24.043" curve="-90"/>
-<vertex x="4.014" y="28.043"/>
+<vertex x="7.01" y="28.04"/>
+<vertex x="7.01" y="24.04" curve="-90"/>
+<vertex x="4.01" y="21.04"/>
+<vertex x="0.5" y="21.04"/>
+<vertex x="0.5" y="24.04" curve="-90"/>
+<vertex x="4.01" y="28.04"/>
 </polygon>
 <polygon width="0" layer="42">
-<vertex x="7.014" y="28.043"/>
-<vertex x="7.014" y="24.043" curve="-90"/>
-<vertex x="4.014" y="21.043"/>
-<vertex x="0.504" y="21.043"/>
-<vertex x="0.504" y="24.043" curve="-90"/>
-<vertex x="4.014" y="28.043"/>
+<vertex x="7.01" y="28.04"/>
+<vertex x="7.01" y="24.04" curve="-90"/>
+<vertex x="4.01" y="21.04"/>
+<vertex x="0.5" y="21.04"/>
+<vertex x="0.5" y="24.04" curve="-90"/>
+<vertex x="4.01" y="28.04"/>
 </polygon>
 <polygon width="0" layer="43">
-<vertex x="7.014" y="28.043"/>
-<vertex x="7.014" y="24.043" curve="-90"/>
-<vertex x="4.014" y="21.043"/>
-<vertex x="0.504" y="21.043"/>
-<vertex x="0.504" y="24.043" curve="-90"/>
-<vertex x="4.014" y="28.043"/>
+<vertex x="7.01" y="28.04"/>
+<vertex x="7.01" y="24.04" curve="-90"/>
+<vertex x="4.01" y="21.04"/>
+<vertex x="0.5" y="21.04"/>
+<vertex x="0.5" y="24.04" curve="-90"/>
+<vertex x="4.01" y="28.04"/>
 </polygon>
-<wire x1="24.004" y1="0.003" x2="24.004" y2="28.003" width="0.127" layer="48"/>
-<wire x1="48.004" y1="14.003" x2="0.504" y2="14.003" width="0.127" layer="48"/>
-<wire x1="48.004" y1="28.003" x2="48.004" y2="0.003" width="0.127" layer="20"/>
-<wire x1="4.004" y1="0.003" x2="0.504" y2="4.003" width="0.127" layer="20" curve="-90"/>
-<wire x1="0.504" y1="4.003" x2="0.504" y2="24.003" width="0.127" layer="20"/>
-<wire x1="0.504" y1="24.003" x2="4.004" y2="28.003" width="0.127" layer="20" curve="-90"/>
+<wire x1="48" y1="28" x2="48" y2="0" width="0.127" layer="20"/>
+<wire x1="24" y1="0" x2="24" y2="28" width="0.127" layer="48"/>
+<wire x1="48" y1="14" x2="0.5" y2="14" width="0.127" layer="48"/>
+<wire x1="4" y1="0" x2="0.5" y2="4" width="0.127" layer="20" curve="-90"/>
+<wire x1="0.5" y1="4" x2="0.5" y2="24" width="0.127" layer="20"/>
+<wire x1="0.5" y1="24" x2="4" y2="28" width="0.127" layer="20" curve="-90"/>
+<rectangle x1="11.175" y1="23.905" x2="11.683" y2="24.413" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="21.365" x2="11.683" y2="21.873" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="18.825" x2="11.683" y2="19.333" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="16.285" x2="11.683" y2="16.793" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="13.745" x2="11.683" y2="14.253" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="11.205" x2="11.683" y2="11.713" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="8.665" x2="11.683" y2="9.173" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="6.125" x2="11.683" y2="6.633" layer="22" rot="R180"/>
+<rectangle x1="11.175" y1="3.585" x2="11.683" y2="4.093" layer="22" rot="R180"/>
 <wire x1="48" y1="0" x2="20" y2="0" width="0.127" layer="20"/>
 <wire x1="20" y1="0" x2="20" y2="2" width="0.127" layer="20"/>
 <wire x1="20" y1="2" x2="15" y2="2" width="0.127" layer="20"/>
@@ -396,37 +394,32 @@ DIN A3, landscape with location and doc. field</description>
 </package>
 </packages>
 <symbols>
-<symbol name="ECOG_BUSES_ROW">
+<symbol name="ECOG_GENERAL_ROW">
 <wire x1="-1.27" y1="27.94" x2="5.08" y2="27.94" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="20.32" x2="0" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="15.24" x2="0" y2="15.24" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="17.78" x2="0" y2="17.78" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="10.16" x2="0" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="12.7" x2="0" y2="12.7" width="0.6096" layer="94"/>
 <wire x1="5.08" y1="0" x2="5.08" y2="27.94" width="0.4064" layer="94"/>
 <wire x1="-1.27" y1="27.94" x2="-1.27" y2="0" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="0" x2="-1.27" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="7.62" x2="2.54" y2="7.62" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="10.16" x2="2.54" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="7.62" x2="0" y2="7.62" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="0" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.6096" layer="94"/>
 <text x="-4.572" y="-2.286" size="1.778" layer="95">&gt;NAME</text>
-<pin name="SPI-SCK@B2" x="7.62" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="SPI-MOSI@B1" x="7.62" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="SPI-MISO@B0" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="GND@B" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="3.81" y1="12.7" x2="2.54" y2="12.7" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="15.24" x2="2.54" y2="15.24" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="17.78" x2="2.54" y2="17.78" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="20.32" x2="2.54" y2="20.32" width="0.6096" layer="94"/>
-<pin name="RSV@B6" x="7.62" y="20.32" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="I2C-SCL@B5" x="7.62" y="17.78" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="I2C-SDA@B4" x="7.62" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="SPI-CS@B3" x="7.62" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="3.81" y1="22.86" x2="2.54" y2="22.86" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="25.4" x2="2.54" y2="25.4" width="0.6096" layer="94"/>
-<pin name="3V3@B8" x="7.62" y="25.4" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="RSV@B7" x="7.62" y="22.86" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.286" y="-2.032" size="1.397" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="G6" x="-5.08" y="20.32" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="G5" x="-5.08" y="17.78" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="G4" x="-5.08" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="G3" x="-5.08" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="G2" x="-5.08" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="G1" x="-5.08" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="G0" x="-5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="GND" x="-5.08" y="2.54" visible="pad" length="middle" direction="pwr" swaplevel="1"/>
+<wire x1="1.27" y1="22.86" x2="0" y2="22.86" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="25.4" x2="0" y2="25.4" width="0.6096" layer="94"/>
+<pin name="3V3" x="-5.08" y="25.4" visible="pad" length="middle" direction="pwr" swaplevel="1"/>
+<pin name="G7" x="-5.08" y="22.86" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="3V3">
 <wire x1="0" y1="1.905" x2="0" y2="0.635" width="0.1524" layer="94"/>
@@ -435,57 +428,50 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-1.778" y="3.175" size="1.397" layer="96">&gt;VALUE</text>
 <pin name="3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.286" y="-2.032" size="1.397" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="ECOG_BUSES_ROW">
+<deviceset name="ECOG_GENERAL_ROW">
 <gates>
-<gate name="ECOG_BUSES" symbol="ECOG_BUSES_ROW" x="0" y="0"/>
+<gate name="ECOG_GENERAL" symbol="ECOG_GENERAL_ROW" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SURFACEMOUNT" package="ECOG_BUSES_SMD">
+<device name="SURFACEMOUNT" package="ECOG_GENERAL_SMD">
 <connects>
-<connect gate="ECOG_BUSES" pin="3V3@B8" pad="3V3"/>
-<connect gate="ECOG_BUSES" pin="GND@B" pad="GND"/>
-<connect gate="ECOG_BUSES" pin="I2C-SCL@B5" pad="I2C-SCL"/>
-<connect gate="ECOG_BUSES" pin="I2C-SDA@B4" pad="I2C-SDA"/>
-<connect gate="ECOG_BUSES" pin="RSV@B6" pad="RESET"/>
-<connect gate="ECOG_BUSES" pin="RSV@B7" pad="5V0"/>
-<connect gate="ECOG_BUSES" pin="SPI-CS@B3" pad="SPI-CS"/>
-<connect gate="ECOG_BUSES" pin="SPI-MISO@B0" pad="SPI-MISO"/>
-<connect gate="ECOG_BUSES" pin="SPI-MOSI@B1" pad="SPI-MOSI"/>
-<connect gate="ECOG_BUSES" pin="SPI-SCK@B2" pad="SPI-SCK"/>
+<connect gate="ECOG_GENERAL" pin="3V3" pad="3V3"/>
+<connect gate="ECOG_GENERAL" pin="G0" pad="G0"/>
+<connect gate="ECOG_GENERAL" pin="G1" pad="G1"/>
+<connect gate="ECOG_GENERAL" pin="G2" pad="G2"/>
+<connect gate="ECOG_GENERAL" pin="G3" pad="G3"/>
+<connect gate="ECOG_GENERAL" pin="G4" pad="G4"/>
+<connect gate="ECOG_GENERAL" pin="G5" pad="G5"/>
+<connect gate="ECOG_GENERAL" pin="G6" pad="G6"/>
+<connect gate="ECOG_GENERAL" pin="G7" pad="G7"/>
+<connect gate="ECOG_GENERAL" pin="GND" pad="GND"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="S1013EC-10-ND" constant="no"/>
+<attribute name="DIGIKEY" value="S1013EC-10-ND"/>
 </technology>
 </technologies>
 </device>
-<device name="THROUGHHOLE" package="ECOG_BUSES_TH">
+<device name="THROUGHOLE" package="ECOG_GENERAL_TH">
 <connects>
-<connect gate="ECOG_BUSES" pin="3V3@B8" pad="3V3"/>
-<connect gate="ECOG_BUSES" pin="GND@B" pad="GND"/>
-<connect gate="ECOG_BUSES" pin="I2C-SCL@B5" pad="I2C-SCL"/>
-<connect gate="ECOG_BUSES" pin="I2C-SDA@B4" pad="I2C-SDA"/>
-<connect gate="ECOG_BUSES" pin="RSV@B6" pad="RESET"/>
-<connect gate="ECOG_BUSES" pin="RSV@B7" pad="5V0"/>
-<connect gate="ECOG_BUSES" pin="SPI-CS@B3" pad="SPI-CS"/>
-<connect gate="ECOG_BUSES" pin="SPI-MISO@B0" pad="SPI-MISO"/>
-<connect gate="ECOG_BUSES" pin="SPI-MOSI@B1" pad="SPI-MOSI"/>
-<connect gate="ECOG_BUSES" pin="SPI-SCK@B2" pad="SPI-SCK"/>
+<connect gate="ECOG_GENERAL" pin="3V3" pad="3V3"/>
+<connect gate="ECOG_GENERAL" pin="G0" pad="G0"/>
+<connect gate="ECOG_GENERAL" pin="G1" pad="G1"/>
+<connect gate="ECOG_GENERAL" pin="G2" pad="G2"/>
+<connect gate="ECOG_GENERAL" pin="G3" pad="G3"/>
+<connect gate="ECOG_GENERAL" pin="G4" pad="G4"/>
+<connect gate="ECOG_GENERAL" pin="G5" pad="G5"/>
+<connect gate="ECOG_GENERAL" pin="G6" pad="G6"/>
+<connect gate="ECOG_GENERAL" pin="G7" pad="G7"/>
+<connect gate="ECOG_GENERAL" pin="GND" pad="GND"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="GND" prefix="GND">
-<gates>
-<gate name="A" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -496,6 +482,18 @@ DIN A3, landscape with location and doc. field</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="3V3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" prefix="GND">
+<gates>
+<gate name="A" symbol="GND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -518,9 +516,9 @@ DIN A3, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="ECOG" library="eCogs" deviceset="ECOG_BUSES_ROW" device="THROUGHHOLE" value="ECOG_BUSES_ROWTHROUGHHOLE"/>
-<part name="GND1" library="eCogs" deviceset="GND" device=""/>
+<part name="ECOG" library="eCogs" deviceset="ECOG_GENERAL_ROW" device="THROUGHOLE" value="ECOG_GENERAL_ROWTHROUGHOLE"/>
 <part name="3V3_PWR1" library="eCogs" deviceset="3V3" device=""/>
+<part name="GND1" library="eCogs" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -529,29 +527,53 @@ DIN A3, landscape with location and doc. field</description>
 <text x="99.06" y="7.62" size="1.27" layer="91">To view a copy of this license, visit http://creativecommons.org/ ; or, (b) send a letter to Creative Commons, 171 2nd Street, Suite 300, San Francisco, California, 94105, USA.</text>
 <text x="317.5" y="30.48" size="2.1844" layer="91">Copyright 2016 Gadget Factory, LLC</text>
 <text x="317.5" y="25.4" size="1.778" layer="91">See more details at www.GadgetFactory.net</text>
+<text x="75.438" y="70.612" size="1.27" layer="97">PWM1 is available on all eCogs for all motherboards. -&gt;</text>
+<text x="68.58" y="68.072" size="1.27" layer="97">PWM2 is available on eCogs B and C on some motherboards. -&gt;</text>
+<text x="68.58" y="65.278" size="1.27" layer="97">PWM3 is available on eCogs B and C on some motherboards. -&gt;</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="ECOG" gate="ECOG_BUSES" x="55.88" y="53.34"/>
-<instance part="GND1" gate="A" x="78.74" y="50.8"/>
-<instance part="3V3_PWR1" gate="A" x="63.5" y="86.36"/>
+<instance part="ECOG" gate="ECOG_GENERAL" x="152.4" y="58.42"/>
+<instance part="3V3_PWR1" gate="A" x="147.32" y="91.44"/>
+<instance part="GND1" gate="A" x="132.08" y="55.88"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
-<segment>
-<pinref part="ECOG" gate="ECOG_BUSES" pin="GND@B"/>
-<pinref part="GND1" gate="A" pin="GND"/>
-<wire x1="63.5" y1="55.88" x2="78.74" y2="55.88" width="0.2032" layer="91"/>
-<wire x1="78.74" y1="55.88" x2="78.74" y2="53.34" width="0.2032" layer="91"/>
-</segment>
-</net>
 <net name="3V3" class="0">
 <segment>
+<pinref part="ECOG" gate="ECOG_GENERAL" pin="3V3"/>
 <pinref part="3V3_PWR1" gate="A" pin="3V3"/>
-<pinref part="ECOG" gate="ECOG_BUSES" pin="3V3@B8"/>
-<wire x1="63.5" y1="83.82" x2="63.5" y2="78.74" width="0.2032" layer="91"/>
+<wire x1="147.32" y1="83.82" x2="147.32" y2="88.9" width="0.2032" layer="91"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="ECOG" gate="ECOG_GENERAL" pin="GND"/>
+<pinref part="GND1" gate="A" pin="GND"/>
+<wire x1="147.32" y1="60.96" x2="132.08" y2="60.96" width="0.2032" layer="91"/>
+<wire x1="132.08" y1="60.96" x2="132.08" y2="58.42" width="0.2032" layer="91"/>
+</segment>
+</net>
+<net name="PWM1" class="0">
+<segment>
+<pinref part="ECOG" gate="ECOG_GENERAL" pin="G3"/>
+<wire x1="147.32" y1="71.12" x2="142.24" y2="71.12" width="0.2032" layer="91"/>
+<label x="142.24" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWM2" class="0">
+<segment>
+<pinref part="ECOG" gate="ECOG_GENERAL" pin="G2"/>
+<wire x1="147.32" y1="68.58" x2="142.24" y2="68.58" width="0.2032" layer="91"/>
+<label x="142.24" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWM3" class="0">
+<segment>
+<pinref part="ECOG" gate="ECOG_GENERAL" pin="G1"/>
+<wire x1="147.32" y1="66.04" x2="142.24" y2="66.04" width="0.2032" layer="91"/>
+<label x="142.24" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

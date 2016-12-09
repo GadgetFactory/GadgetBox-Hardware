@@ -170,21 +170,7 @@
 <libraries>
 <library name="eCogs">
 <packages>
-<package name="ECOG_GENERAL_SMD">
-<wire x1="10.159" y1="26.699" x2="10.159" y2="1.299" width="0.127" layer="22"/>
-<wire x1="10.159" y1="26.699" x2="12.70264375" y2="26.7010625" width="0.127" layer="22"/>
-<wire x1="10.159" y1="1.299" x2="12.699" y2="1.299" width="0.127" layer="22"/>
-<wire x1="12.70264375" y1="26.7010625" x2="12.699" y2="1.299" width="0.127" layer="22"/>
-<smd name="3V3" x="9.92324375" y="25.429" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G7" x="13.02204375" y="22.889" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G6" x="9.92324375" y="20.349" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G5" x="13.02204375" y="17.809" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G4" x="9.92324375" y="15.269" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G3" x="13.02204375" y="12.729" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G2" x="9.92324375" y="10.189" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G1" x="13.02204375" y="7.649" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G0" x="9.92324375" y="5.1110625" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="GND" x="13.02204375" y="2.5710625" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<package name="ECOG_GENERAL_TH">
 <wire x1="4.01" y1="24.04" x2="-1.82" y2="24.04" width="0.127" layer="47"/>
 <wire x1="-1.82" y1="24.04" x2="-2.455" y2="24.04" width="0.127" layer="47"/>
 <wire x1="-1.82" y1="24.04" x2="-1.82" y2="28.04" width="0.127" layer="47"/>
@@ -243,20 +229,43 @@
 <wire x1="48" y1="28" x2="48" y2="0" width="0.127" layer="20"/>
 <wire x1="24" y1="0" x2="24" y2="28" width="0.127" layer="48"/>
 <wire x1="48" y1="14" x2="0.5" y2="14" width="0.127" layer="48"/>
-<wire x1="48" y1="0" x2="4" y2="0" width="0.127" layer="20"/>
 <wire x1="4" y1="0" x2="0.5" y2="4" width="0.127" layer="20" curve="-90"/>
 <wire x1="0.5" y1="4" x2="0.5" y2="24" width="0.127" layer="20"/>
 <wire x1="0.5" y1="24" x2="4" y2="28" width="0.127" layer="20" curve="-90"/>
-<wire x1="4" y1="28" x2="48" y2="28" width="0.127" layer="20"/>
 <rectangle x1="11.175" y1="23.905" x2="11.683" y2="24.413" layer="22" rot="R180"/>
-<rectangle x1="11.175" y1="21.365" x2="11.683" y2="21.873" layer="22" rot="R180"/>
 <rectangle x1="11.175" y1="18.825" x2="11.683" y2="19.333" layer="22" rot="R180"/>
-<rectangle x1="11.175" y1="16.285" x2="11.683" y2="16.793" layer="22" rot="R180"/>
 <rectangle x1="11.175" y1="13.745" x2="11.683" y2="14.253" layer="22" rot="R180"/>
-<rectangle x1="11.175" y1="11.205" x2="11.683" y2="11.713" layer="22" rot="R180"/>
 <rectangle x1="11.175" y1="8.665" x2="11.683" y2="9.173" layer="22" rot="R180"/>
 <rectangle x1="11.175" y1="6.125" x2="11.683" y2="6.633" layer="22" rot="R180"/>
-<rectangle x1="11.175" y1="3.585" x2="11.683" y2="4.093" layer="22" rot="R180"/>
+<wire x1="48" y1="0" x2="20" y2="0" width="0.127" layer="20"/>
+<wire x1="20" y1="0" x2="20" y2="2" width="0.127" layer="20"/>
+<wire x1="20" y1="2" x2="15" y2="2" width="0.127" layer="20"/>
+<wire x1="15" y1="2" x2="15" y2="0" width="0.127" layer="20"/>
+<wire x1="15" y1="0" x2="4" y2="0" width="0.127" layer="20"/>
+<wire x1="48" y1="28" x2="20" y2="28" width="0.127" layer="20"/>
+<wire x1="20" y1="28" x2="20" y2="26" width="0.127" layer="20"/>
+<wire x1="20" y1="26" x2="15" y2="26" width="0.127" layer="20"/>
+<wire x1="15" y1="26" x2="15" y2="28" width="0.127" layer="20"/>
+<wire x1="15" y1="28" x2="4" y2="28" width="0.127" layer="20"/>
+<wire x1="10.15" y1="26.7" x2="10.15" y2="1.3" width="0.127" layer="22"/>
+<wire x1="10.15" y1="26.7" x2="12.65" y2="26.7" width="0.127" layer="22"/>
+<wire x1="10.15" y1="1.3" x2="12.65" y2="1.3" width="0.127" layer="22"/>
+<wire x1="12.65" y1="26.7" x2="12.65" y2="1.3" width="0.127" layer="22"/>
+<rectangle x1="11.166" y1="11.206" x2="11.674" y2="11.714" layer="22" rot="R270"/>
+<rectangle x1="11.166" y1="16.286" x2="11.674" y2="16.794" layer="22" rot="R270"/>
+<rectangle x1="11.166" y1="21.366" x2="11.674" y2="21.874" layer="22" rot="R270"/>
+<rectangle x1="11.166" y1="4.856" x2="11.674" y2="5.364" layer="52" rot="R270"/>
+<rectangle x1="11.166" y1="3.586" x2="11.674" y2="4.094" layer="22" rot="R270"/>
+<pad name="GND" x="11.43" y="2.54" drill="0.8" shape="square" rot="R180"/>
+<pad name="G0" x="11.43" y="5.08" drill="0.8" rot="R180"/>
+<pad name="G1" x="11.43" y="7.62" drill="0.8" rot="R180"/>
+<pad name="G2" x="11.43" y="10.16" drill="0.8" rot="R180"/>
+<pad name="G3" x="11.43" y="12.7" drill="0.8" rot="R180"/>
+<pad name="G4" x="11.43" y="15.24" drill="0.8" rot="R180"/>
+<pad name="G5" x="11.43" y="17.78" drill="0.8" rot="R180"/>
+<pad name="G6" x="11.43" y="20.32" drill="0.8" rot="R180"/>
+<pad name="G7" x="11.43" y="22.86" drill="0.8" rot="R180"/>
+<pad name="3V3" x="11.43" y="25.4" drill="0.8" rot="R180"/>
 </package>
 <package name="LEGEND_DIO">
 <circle x="0" y="0" radius="0.740528125" width="0" layer="21"/>
@@ -4332,9 +4341,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="ECOG" library="eCogs" package="ECOG_GENERAL_SMD" value="ECOG_GENERAL_ROWECOG_GENERAL_SMD" x="0" y="0" smashed="yes">
-<attribute name="DIGIKEY" value="S1013EC-10-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
-</element>
+<element name="ECOG" library="eCogs" package="ECOG_GENERAL_TH" value="ECOG_GENERAL_ROWTHROUGHOLE" x="0" y="0" smashed="yes"/>
 <element name="U$2" library="eCogs" package="LEGEND_DIO" value="" x="46.609" y="22.86"/>
 <element name="U$3" library="eCogs" package="LEGEND_DIO" value="" x="46.609" y="20.32"/>
 <element name="U$5" library="eCogs" package="LEGEND_PWM" value="" x="46.609" y="15.24"/>

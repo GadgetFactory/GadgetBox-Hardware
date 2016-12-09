@@ -151,21 +151,21 @@
 <text x="39.702" y="2.159" size="1.016" layer="22" font="vector" rot="MR0">ecog100 v2.0</text>
 <text x="39.702" y="3.429" size="1.016" layer="22" font="vector" rot="MR0">Project Name</text>
 <text x="39.702" y="4.699" size="1.016" layer="22" font="vector" rot="MR0">eCogs</text>
-<text x="16.605" y="8.128" size="1.016" layer="22" font="vector" rot="MR180">G1&lt;&gt;</text>
-<text x="16.605" y="10.668" size="1.016" layer="22" font="vector" rot="MR180">G2&lt;&gt;</text>
-<text x="16.605" y="13.208" size="1.016" layer="22" font="vector" rot="MR180">G3&lt;&gt;</text>
-<text x="16.605" y="15.748" size="1.016" layer="22" font="vector" rot="MR180">G4&lt;&gt;</text>
-<text x="16.605" y="18.288" size="1.016" layer="22" font="vector" rot="MR180">G5&lt;&gt;</text>
-<text x="16.605" y="20.828" size="1.016" layer="22" font="vector" rot="MR180">G6&lt;&gt;</text>
-<text x="16.605" y="23.368" size="1.016" layer="22" font="vector" rot="MR180">G7&lt;&gt;</text>
-<text x="16.605" y="5.588" size="1.016" layer="22" font="vector" rot="MR180">G0&lt;&gt;</text>
+<text x="15.335" y="8.128" size="1.016" layer="22" font="vector" rot="MR180">1</text>
+<text x="15.335" y="10.668" size="1.016" layer="22" font="vector" rot="MR180">2</text>
+<text x="15.335" y="13.208" size="1.016" layer="22" font="vector" rot="MR180">3</text>
+<text x="15.335" y="15.748" size="1.016" layer="22" font="vector" rot="MR180">4</text>
+<text x="15.335" y="18.288" size="1.016" layer="22" font="vector" rot="MR180">5</text>
+<text x="15.335" y="20.828" size="1.016" layer="22" font="vector" rot="MR180">6</text>
+<text x="15.335" y="23.368" size="1.016" layer="22" font="vector" rot="MR180">7</text>
+<text x="15.335" y="5.588" size="1.016" layer="22" font="vector" rot="MR180">0</text>
 <text x="33.782" y="17.526" size="0.6096" layer="22" font="vector" rot="MR0">Copyright 2016</text>
 <text x="35.512" y="16.637" size="0.6096" layer="22" font="vector" rot="MR0">Gadget Factory, LLC</text>
-<text x="16.605" y="25.908" size="1.016" layer="22" font="vector" rot="MR180">3.3V</text>
-<text x="16.605" y="3.048" size="1.016" layer="22" font="vector" rot="MR180">GND</text>
-<wire x1="46.99" y1="26.162" x2="46.99" y2="24.638" width="0.254" layer="21"/>
-<wire x1="46.228" y1="25.4" x2="47.752" y2="25.4" width="0.254" layer="21"/>
-<wire x1="46.228" y1="2.54" x2="47.752" y2="2.54" width="0.254" layer="21"/>
+<text x="15.335" y="25.908" size="1.016" layer="22" font="vector" rot="MR180">3.3V</text>
+<text x="15.335" y="3.048" size="1.016" layer="22" font="vector" rot="MR180">GND</text>
+<wire x1="45.847" y1="25.4" x2="47.371" y2="25.4" width="0.254" layer="21"/>
+<wire x1="46.609" y1="26.162" x2="46.609" y2="24.638" width="0.254" layer="21"/>
+<wire x1="45.847" y1="2.54" x2="47.371" y2="2.54" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="eCogs">
@@ -4342,16 +4342,16 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="ECOG" library="eCogs" package="ECOG_GENERAL_TH" value="ECOG_GENERAL_ROWTHROUGHOLE" x="0" y="0" smashed="yes"/>
-<element name="U$2" library="eCogs" package="LEGEND_DIO" value="" x="46.99" y="22.86"/>
-<element name="U$3" library="eCogs" package="LEGEND_DIO" value="" x="46.99" y="20.32"/>
-<element name="U$5" library="eCogs" package="LEGEND_PWM" value="" x="46.99" y="15.24"/>
-<element name="U$6" library="eCogs" package="LEGEND_PWM" value="" x="46.99" y="12.7"/>
-<element name="U$7" library="eCogs" package="LEGEND_ANALOG" value="" x="46.99" y="10.16"/>
-<element name="U$8" library="eCogs" package="LEGEND_ANALOG" value="" x="46.99" y="7.62"/>
-<element name="U$9" library="eCogs" package="LEGEND_ANALOG" value="" x="46.99" y="5.08"/>
-<element name="U$1" library="eCogs" package="LEGEND_DIO" value="" x="46.99" y="17.78"/>
-<element name="U$4" library="GadgetFactory" package="GADGETBOX_TEXT" value="" x="22.86" y="17.78"/>
-<element name="U$10" library="ohw-logo" package="OSHW_FILLX350_NOTEXT" value="" x="11.43" y="3.81"/>
+<element name="U$2" library="eCogs" package="LEGEND_DIO" value="" x="46.609" y="22.86"/>
+<element name="U$3" library="eCogs" package="LEGEND_DIO" value="" x="46.609" y="20.32"/>
+<element name="U$5" library="eCogs" package="LEGEND_PWM" value="" x="46.609" y="15.24"/>
+<element name="U$6" library="eCogs" package="LEGEND_PWM" value="" x="46.609" y="12.7"/>
+<element name="U$7" library="eCogs" package="LEGEND_ANALOG" value="" x="46.609" y="10.16"/>
+<element name="U$8" library="eCogs" package="LEGEND_ANALOG" value="" x="46.609" y="7.62"/>
+<element name="U$9" library="eCogs" package="LEGEND_ANALOG" value="" x="46.609" y="5.08"/>
+<element name="U$1" library="GadgetFactory" package="GADGETBOX_TEXT" value="" x="22.352" y="17.399"/>
+<element name="U$10" library="ohw-logo" package="OSHW_FILLX350_NOTEXT" value="" x="11.43" y="2.54"/>
+<element name="U$4" library="eCogs" package="LEGEND_DIO" value="" x="46.609" y="17.78"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -4372,14 +4372,14 @@ design rules under a new name.</description>
 <vertex x="-1" y="-1"/>
 </polygon>
 </signal>
-<signal name="A1">
-<contactref element="ECOG" pad="G0"/>
+<signal name="PWM1">
+<contactref element="ECOG" pad="G3"/>
 </signal>
-<signal name="A2">
-<contactref element="ECOG" pad="G1"/>
-</signal>
-<signal name="A3">
+<signal name="PWM2">
 <contactref element="ECOG" pad="G2"/>
+</signal>
+<signal name="PWM3">
+<contactref element="ECOG" pad="G1"/>
 </signal>
 </signals>
 </board>
