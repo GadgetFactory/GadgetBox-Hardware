@@ -148,7 +148,7 @@
 <board>
 <plain>
 <text x="40.099" y="25.273" size="0.8128" layer="22" font="vector" rot="MR0">ecog113.GadgetFactory.net</text>
-<text x="39.702" y="2.159" size="1.016" layer="22" font="vector" rot="MR0">ecog113 v2.0</text>
+<text x="39.702" y="2.159" size="1.016" layer="22" font="vector" rot="MR0">ecog113 v2.1</text>
 <text x="39.702" y="3.429" size="1.016" layer="22" font="vector" rot="MR0">BLE Bluetooth (HM-10)</text>
 <text x="39.702" y="4.699" size="1.016" layer="22" font="vector" rot="MR0">eCogs</text>
 <text x="8.795" y="7.112" size="1.016" layer="22" font="vector" rot="MR0">RX/MOSI</text>
@@ -820,21 +820,7 @@
 <libraries>
 <library name="eCogs">
 <packages>
-<package name="ECOG_GENERAL_SMD">
-<wire x1="10.159" y1="26.699" x2="10.159" y2="1.299" width="0.127" layer="22"/>
-<wire x1="10.159" y1="26.699" x2="12.70264375" y2="26.7010625" width="0.127" layer="22"/>
-<wire x1="10.159" y1="1.299" x2="12.699" y2="1.299" width="0.127" layer="22"/>
-<wire x1="12.70264375" y1="26.7010625" x2="12.699" y2="1.299" width="0.127" layer="22"/>
-<smd name="3V3" x="9.92324375" y="25.429" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G7" x="13.02204375" y="22.889" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G6" x="9.92324375" y="20.349" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G5" x="13.02204375" y="17.809" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G4" x="9.92324375" y="15.269" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G3" x="13.02204375" y="12.729" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G2" x="9.92324375" y="10.189" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G1" x="13.02204375" y="7.649" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="G0" x="9.92324375" y="5.1110625" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
-<smd name="GND" x="13.02204375" y="2.5710625" dx="3.5" dy="1" layer="16" roundness="100" rot="R180"/>
+<package name="ECOG_GENERAL_TH">
 <wire x1="4.01" y1="24.04" x2="-1.82" y2="24.04" width="0.127" layer="47"/>
 <wire x1="-1.82" y1="24.04" x2="-2.455" y2="24.04" width="0.127" layer="47"/>
 <wire x1="-1.82" y1="24.04" x2="-1.82" y2="28.04" width="0.127" layer="47"/>
@@ -897,14 +883,10 @@
 <wire x1="0.5" y1="4" x2="0.5" y2="24" width="0.127" layer="20"/>
 <wire x1="0.5" y1="24" x2="4" y2="28" width="0.127" layer="20" curve="-90"/>
 <rectangle x1="11.175" y1="23.905" x2="11.683" y2="24.413" layer="22" rot="R180"/>
-<rectangle x1="11.175" y1="21.365" x2="11.683" y2="21.873" layer="22" rot="R180"/>
 <rectangle x1="11.175" y1="18.825" x2="11.683" y2="19.333" layer="22" rot="R180"/>
-<rectangle x1="11.175" y1="16.285" x2="11.683" y2="16.793" layer="22" rot="R180"/>
 <rectangle x1="11.175" y1="13.745" x2="11.683" y2="14.253" layer="22" rot="R180"/>
-<rectangle x1="11.175" y1="11.205" x2="11.683" y2="11.713" layer="22" rot="R180"/>
 <rectangle x1="11.175" y1="8.665" x2="11.683" y2="9.173" layer="22" rot="R180"/>
 <rectangle x1="11.175" y1="6.125" x2="11.683" y2="6.633" layer="22" rot="R180"/>
-<rectangle x1="11.175" y1="3.585" x2="11.683" y2="4.093" layer="22" rot="R180"/>
 <wire x1="48" y1="0" x2="20" y2="0" width="0.127" layer="20"/>
 <wire x1="20" y1="0" x2="20" y2="2" width="0.127" layer="20"/>
 <wire x1="20" y1="2" x2="15" y2="2" width="0.127" layer="20"/>
@@ -915,6 +897,25 @@
 <wire x1="20" y1="26" x2="15" y2="26" width="0.127" layer="20"/>
 <wire x1="15" y1="26" x2="15" y2="28" width="0.127" layer="20"/>
 <wire x1="15" y1="28" x2="4" y2="28" width="0.127" layer="20"/>
+<wire x1="10.15" y1="26.7" x2="10.15" y2="1.3" width="0.127" layer="22"/>
+<wire x1="10.15" y1="26.7" x2="12.65" y2="26.7" width="0.127" layer="22"/>
+<wire x1="10.15" y1="1.3" x2="12.65" y2="1.3" width="0.127" layer="22"/>
+<wire x1="12.65" y1="26.7" x2="12.65" y2="1.3" width="0.127" layer="22"/>
+<rectangle x1="11.166" y1="11.206" x2="11.674" y2="11.714" layer="22" rot="R270"/>
+<rectangle x1="11.166" y1="16.286" x2="11.674" y2="16.794" layer="22" rot="R270"/>
+<rectangle x1="11.166" y1="21.366" x2="11.674" y2="21.874" layer="22" rot="R270"/>
+<rectangle x1="11.166" y1="4.856" x2="11.674" y2="5.364" layer="52" rot="R270"/>
+<rectangle x1="11.166" y1="3.586" x2="11.674" y2="4.094" layer="22" rot="R270"/>
+<pad name="GND" x="11.43" y="2.54" drill="0.8" shape="square" rot="R180"/>
+<pad name="G0" x="11.43" y="5.08" drill="0.8" rot="R180"/>
+<pad name="G1" x="11.43" y="7.62" drill="0.8" rot="R180"/>
+<pad name="G2" x="11.43" y="10.16" drill="0.8" rot="R180"/>
+<pad name="G3" x="11.43" y="12.7" drill="0.8" rot="R180"/>
+<pad name="G4" x="11.43" y="15.24" drill="0.8" rot="R180"/>
+<pad name="G5" x="11.43" y="17.78" drill="0.8" rot="R180"/>
+<pad name="G6" x="11.43" y="20.32" drill="0.8" rot="R180"/>
+<pad name="G7" x="11.43" y="22.86" drill="0.8" rot="R180"/>
+<pad name="3V3" x="11.43" y="25.4" drill="0.8" rot="R180"/>
 </package>
 <package name="LEGEND_DIO">
 <circle x="0" y="0" radius="0.740528125" width="0" layer="21"/>
@@ -4973,9 +4974,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="ECOG" library="eCogs" package="ECOG_GENERAL_SMD" value="ECOG_GENERAL_ROWECOG_GENERAL_SMD" x="0" y="0" smashed="yes">
-<attribute name="DIGIKEY" value="S1013EC-10-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
-</element>
+<element name="ECOG" library="eCogs" package="ECOG_GENERAL_TH" value="ECOG_GENERAL_ROWTHROUGHOLE" x="0" y="0" smashed="yes"/>
 <element name="U$1" library="GadgetFactory" package="GADGETBOX_TEXT" value="" x="24.13" y="17.78"/>
 <element name="U$2" library="eCogs" package="LEGEND_DIO" value="" x="46.99" y="7.62"/>
 <element name="U$3" library="eCogs" package="LEGEND_DIO" value="" x="46.99" y="5.08"/>
@@ -5006,7 +5005,7 @@ design rules under a new name.</description>
 <contactref element="E1" pad="12"/>
 <contactref element="E1" pad="11"/>
 <wire x1="21.6" y1="7.74" x2="23.1" y2="7.74" width="0.3048" layer="16"/>
-<wire x1="9.92324375" y1="25.429" x2="13.941" y2="25.429" width="0.8128" layer="16"/>
+<wire x1="11.43" y1="25.4" x2="13.941" y2="25.429" width="0.8128" layer="16"/>
 <wire x1="13.941" y1="25.429" x2="13.97" y2="25.4" width="0.8128" layer="16"/>
 <via x="13.97" y="25.4" extent="1-16" drill="0.381"/>
 <wire x1="13.97" y1="25.4" x2="14.351" y2="25.4" width="0.8128" layer="1"/>
@@ -5019,7 +5018,7 @@ design rules under a new name.</description>
 <signal name="RX/MOSI">
 <contactref element="E1" pad="2"/>
 <contactref element="ECOG" pad="G1"/>
-<wire x1="13.02204375" y1="7.649" x2="13.179" y2="7.649" width="0.254" layer="16"/>
+<wire x1="11.43" y1="7.62" x2="13.179" y2="7.649" width="0.254" layer="16"/>
 <wire x1="13.179" y1="7.649" x2="14.859" y2="5.969" width="0.254" layer="16"/>
 <wire x1="14.859" y1="5.969" x2="36.068" y2="5.969" width="0.254" layer="16"/>
 <wire x1="36.068" y1="5.969" x2="36.703" y2="6.604" width="0.254" layer="16"/>
@@ -5029,7 +5028,7 @@ design rules under a new name.</description>
 <signal name="TX/MISO">
 <contactref element="E1" pad="1"/>
 <contactref element="ECOG" pad="G0"/>
-<wire x1="9.92324375" y1="5.1110625" x2="12.6689375" y2="5.1110625" width="0.254" layer="16"/>
+<wire x1="11.43" y1="5.08" x2="12.6689375" y2="5.1110625" width="0.254" layer="16"/>
 <wire x1="12.6689375" y1="5.1110625" x2="13.97" y2="3.81" width="0.254" layer="16"/>
 <wire x1="13.97" y1="3.81" x2="36.83" y2="3.81" width="0.254" layer="16"/>
 <wire x1="36.83" y1="3.81" x2="38.1" y2="5.08" width="0.254" layer="16"/>
