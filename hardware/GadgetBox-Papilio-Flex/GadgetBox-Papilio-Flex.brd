@@ -8,27 +8,27 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="14" fill="3" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -16094,12 +16094,12 @@
 <text x="22.86" y="2.54" size="1.27" layer="21" font="vector" ratio="15">Get Started at Flex.GadgetFactory.net</text>
 <text x="19.812" y="42.418" size="1.27" layer="21" font="vector" ratio="15" rot="R90">- +</text>
 <text x="14.732" y="42.291" size="1.27" layer="22" font="vector" ratio="15" rot="MR90">- +</text>
-<text x="12.954" y="49.911" size="1.524" layer="21" font="vector" ratio="15">7A</text>
-<text x="12.954" y="47.498" size="1.524" layer="21" font="vector" ratio="15">6A</text>
-<text x="12.954" y="39.751" size="1.524" layer="21" font="vector" ratio="15">3A</text>
-<text x="12.954" y="37.211" size="1.524" layer="21" font="vector" ratio="15">2A</text>
-<text x="12.954" y="34.798" size="1.524" layer="21" font="vector" ratio="15">1A</text>
-<text x="12.954" y="32.258" size="1.524" layer="21" font="vector" ratio="15">0A</text>
+<text x="12.954" y="49.911" size="1.016" layer="21" font="vector" ratio="15">Ae7</text>
+<text x="12.954" y="47.498" size="1.016" layer="21" font="vector" ratio="15">Ae6</text>
+<text x="12.954" y="39.751" size="1.016" layer="21" font="vector" ratio="15">Ae3</text>
+<text x="12.954" y="37.211" size="1.016" layer="21" font="vector" ratio="15">Ae2</text>
+<text x="12.954" y="34.798" size="1.016" layer="21" font="vector" ratio="15">Ae1</text>
+<text x="12.954" y="32.258" size="1.016" layer="21" font="vector" ratio="15">Ae0</text>
 <text x="2.54" y="47.371" size="1.778" layer="21" font="vector" ratio="15">RST</text>
 <text x="2.667" y="32.385" size="1.27" layer="21" font="vector" ratio="15">MISO</text>
 <text x="2.667" y="34.925" size="1.27" layer="21" font="vector" ratio="15">MOSI</text>
@@ -16109,10 +16109,10 @@
 <text x="23.241" y="39.243" size="6.4516" layer="21" font="vector" ratio="15">A</text>
 <text x="2.54" y="37.211" size="1.6764" layer="21" font="vector" ratio="15">SCK</text>
 <text x="67.056" y="39.243" size="6.4516" layer="21" font="vector" ratio="15">B</text>
-<text x="80.391" y="47.498" size="1.524" layer="21" font="vector" ratio="15">1C</text>
-<text x="80.391" y="44.958" size="1.524" layer="21" font="vector" ratio="15">2C</text>
-<text x="80.391" y="42.418" size="1.524" layer="21" font="vector" ratio="15">3C</text>
-<text x="80.391" y="39.878" size="1.524" layer="21" font="vector" ratio="15">4C</text>
+<text x="79.121" y="47.498" size="1.524" layer="21" font="vector" ratio="15">Be1</text>
+<text x="79.121" y="44.958" size="1.524" layer="21" font="vector" ratio="15">Be2</text>
+<text x="79.121" y="42.418" size="1.524" layer="21" font="vector" ratio="15">Be3</text>
+<text x="79.121" y="39.878" size="1.524" layer="21" font="vector" ratio="15">Be4</text>
 <text x="89.408" y="34.671" size="1.6764" layer="21" font="vector" ratio="15">RST</text>
 <text x="89.408" y="37.211" size="1.6764" layer="21" font="vector" ratio="15">SCL</text>
 <text x="89.408" y="39.751" size="1.6764" layer="21" font="vector" ratio="15">SDA</text>
@@ -16121,11 +16121,11 @@
 <text x="89.408" y="46.99" size="1.27" layer="21" font="vector" ratio="15">MOSI</text>
 <text x="89.154" y="49.022" size="1.27" layer="21" font="vector" ratio="15">MISO</text>
 <text x="22.606" y="11.049" size="6.4516" layer="21" font="vector" ratio="15">C</text>
-<text x="13.208" y="14.478" size="1.524" layer="21" font="vector" ratio="15">4C</text>
-<text x="13.208" y="11.938" size="1.524" layer="21" font="vector" ratio="15">3C</text>
-<text x="13.208" y="9.271" size="1.524" layer="21" font="vector" ratio="15">2C</text>
-<text x="13.081" y="6.858" size="1.524" layer="21" font="vector" ratio="15">1C</text>
-<text x="13.081" y="4.318" size="1.524" layer="21" font="vector" ratio="15">0C</text>
+<text x="13.208" y="14.478" size="1.524" layer="21" font="vector" ratio="15">Ce4</text>
+<text x="13.208" y="11.938" size="1.524" layer="21" font="vector" ratio="15">Ce3</text>
+<text x="13.081" y="9.779" size="1.27" layer="21" font="vector" ratio="15">Ce2</text>
+<text x="13.081" y="6.858" size="1.27" layer="21" font="vector" ratio="15">Ce1</text>
+<text x="13.081" y="4.318" size="1.524" layer="21" font="vector" ratio="15">Ce0</text>
 <text x="2.54" y="19.431" size="1.6764" layer="21" font="vector" ratio="15">RST</text>
 <text x="2.54" y="16.891" size="1.6764" layer="21" font="vector" ratio="15">SCL</text>
 <text x="2.54" y="14.351" size="1.6764" layer="21" font="vector" ratio="15">SDA</text>
@@ -16134,7 +16134,7 @@
 <text x="2.667" y="6.985" size="1.27" layer="21" font="vector" ratio="15">MOSI</text>
 <text x="2.921" y="5.207" size="1.27" layer="21" font="vector" ratio="15">MISO</text>
 <text x="67.056" y="2.921" size="6.4516" layer="21" font="vector" ratio="15">D</text>
-<text x="80.137" y="3.683" size="1.778" layer="21" font="vector" ratio="15">7D</text>
+<text x="78.613" y="3.81" size="1.778" layer="21" font="vector" ratio="15">De7</text>
 <text x="88.9" y="6.731" size="1.778" layer="21" font="vector" ratio="15">RST</text>
 <text x="88.9" y="9.271" size="1.778" layer="21" font="vector" ratio="15">SCL</text>
 <text x="88.9" y="11.811" size="1.778" layer="21" font="vector" ratio="15">SDA</text>
@@ -16144,7 +16144,7 @@
 <text x="88.9" y="22.225" size="1.27" layer="21" font="vector" ratio="15">MISO</text>
 <text x="13.081" y="1.778" size="1.524" layer="21" font="vector" ratio="15">GND</text>
 <text x="88.773" y="24.511" size="1.778" layer="21" font="vector" ratio="15">GND</text>
-<text x="12.954" y="29.591" size="1.524" layer="21" font="vector" ratio="15">GND</text>
+<text x="12.954" y="29.591" size="1.016" layer="21" font="vector" ratio="15">GND</text>
 <text x="2.413" y="29.591" size="1.778" layer="21" font="vector" ratio="15">GND</text>
 <text x="1.778" y="24.511" size="1.778" layer="21" font="vector" ratio="15">3.3V</text>
 <text x="2.54" y="21.971" size="1.6764" layer="21" font="vector" ratio="15">5V</text>
@@ -16155,9 +16155,9 @@
 <wire x1="88.9" y1="53.34" x2="90.17" y2="53.34" width="0.254" layer="21"/>
 <text x="88.773" y="29.591" size="1.778" layer="21" font="vector" ratio="15">3.3V</text>
 <text x="89.408" y="32.131" size="1.6764" layer="21" font="vector" ratio="15">5V</text>
-<text x="12.954" y="42.291" size="1.524" layer="21" font="vector" ratio="15">4A</text>
-<text x="12.954" y="44.831" size="1.524" layer="21" font="vector" ratio="15">5A</text>
-<text x="80.391" y="37.592" size="1.524" layer="21" font="vector" ratio="15">5C</text>
+<text x="12.954" y="42.291" size="1.016" layer="21" font="vector" ratio="15">Ae4</text>
+<text x="12.954" y="44.831" size="1.016" layer="21" font="vector" ratio="15">Ae5</text>
+<text x="79.121" y="37.592" size="1.524" layer="21" font="vector" ratio="15">Be5</text>
 </plain>
 <libraries>
 <library name="eCogs">
@@ -24365,6 +24365,15 @@ design rules under a new name.</description>
 <wire x1="13.843" y1="12.827" x2="12.7" y2="13.97" width="0.254" layer="3"/>
 <wire x1="12.7" y1="13.97" x2="10.16" y2="13.97" width="0.254" layer="3"/>
 <wire x1="10.16" y1="13.97" x2="8.89" y2="12.7" width="0.254" layer="3"/>
+<contactref element="ICU" pad="31"/>
+<via x="32.639" y="16.383" extent="1-16" drill="0.381"/>
+<wire x1="32.41" y1="18.76" x2="32.41" y2="16.612" width="0.254" layer="1"/>
+<wire x1="32.41" y1="16.612" x2="32.639" y2="16.383" width="0.254" layer="1"/>
+<wire x1="32.639" y1="16.383" x2="49.911" y2="16.383" width="0.254" layer="3"/>
+<wire x1="49.911" y1="16.383" x2="52.07" y2="14.224" width="0.254" layer="3"/>
+<wire x1="52.07" y1="14.224" x2="51.943" y2="14.224" width="0.254" layer="3"/>
+<wire x1="51.943" y1="14.224" x2="50.546" y2="12.827" width="0.254" layer="3"/>
+<wire x1="50.546" y1="12.827" x2="49.657" y2="12.827" width="0.254" layer="3"/>
 </signal>
 <signal name="SPI-CSB">
 <contactref element="B" pad="SPI-CS@B3"/>
@@ -25860,9 +25869,6 @@ design rules under a new name.</description>
 <wire x1="39.624" y1="14.478" x2="41.956" y2="16.81" width="0.254" layer="1"/>
 <wire x1="46.76" y1="16.81" x2="41.956" y2="16.81" width="0.254" layer="1"/>
 </signal>
-<signal name="N$18">
-<contactref element="ICU" pad="31"/>
-</signal>
 <signal name="N$19">
 <contactref element="ICU" pad="33"/>
 </signal>
@@ -25958,10 +25964,7 @@ design rules under a new name.</description>
 <contactref element="FTDI" pad="3"/>
 <wire x1="50.546" y1="45.594" x2="50.54" y2="45.6" width="0.254" layer="3"/>
 <contactref element="ICU" pad="27"/>
-<wire x1="30.81" y1="18.76" x2="30.81" y2="16.688" width="0.254" layer="1"/>
-<wire x1="30.81" y1="16.688" x2="31.369" y2="16.129" width="0.254" layer="1"/>
-<via x="31.369" y="16.129" extent="1-16" drill="0.381"/>
-<wire x1="31.369" y1="16.129" x2="45.466" y2="16.129" width="0.254" layer="3"/>
+<via x="31.369" y="15.875" extent="1-16" drill="0.381"/>
 <wire x1="51.562" y1="31.877" x2="50.546" y2="30.861" width="0.254" layer="3"/>
 <wire x1="51.562" y1="31.877" x2="51.562" y2="44.578" width="0.254" layer="3"/>
 <wire x1="51.562" y1="44.578" x2="50.54" y2="45.6" width="0.254" layer="3"/>
@@ -25970,9 +25973,12 @@ design rules under a new name.</description>
 <wire x1="50.61" y1="10.46" x2="50.61" y2="13.97" width="0.254" layer="1"/>
 <wire x1="50.61" y1="13.97" x2="50.61" y2="17.462" width="0.254" layer="1"/>
 <wire x1="50.61" y1="17.462" x2="50.546" y2="17.526" width="0.254" layer="1"/>
-<wire x1="45.466" y1="16.129" x2="47.625" y2="13.97" width="0.254" layer="3"/>
-<wire x1="47.625" y1="13.97" x2="50.61" y2="13.97" width="0.254" layer="3"/>
 <via x="50.61" y="13.97" extent="1-16" drill="0.381"/>
+<wire x1="30.81" y1="18.76" x2="30.81" y2="16.434" width="0.254" layer="1"/>
+<wire x1="30.81" y1="16.434" x2="31.369" y2="15.875" width="0.254" layer="1"/>
+<wire x1="31.369" y1="15.875" x2="31.369" y2="14.859" width="0.254" layer="3"/>
+<wire x1="31.369" y1="14.859" x2="32.258" y2="13.97" width="0.254" layer="3"/>
+<wire x1="32.258" y1="13.97" x2="50.61" y2="13.97" width="0.254" layer="3"/>
 </signal>
 <signal name="TX">
 <contactref element="U8" pad="78"/>
